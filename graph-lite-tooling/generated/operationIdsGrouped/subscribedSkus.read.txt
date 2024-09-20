@@ -1,0 +1,2 @@
+subscribedSkus.subscribedSku.ListSubscribedSku
+subscribedSkus.subscribedSku.GetSubscribedSku

@@ -1,0 +1,9 @@
+appCatalogs.appCatalogs.UpdateAppCatalogs
+appCatalogs.CreateTeamsApps
+appCatalogs.UpdateTeamsApps
+appCatalogs.DeleteTeamsApps
+appCatalogs.teamsApps.CreateAppDefinitions
+appCatalogs.teamsApps.UpdateAppDefinitions
+appCatalogs.teamsApps.DeleteAppDefinitions
+appCatalogs.teamsApps.appDefinitions.UpdateBot
+appCatalogs.teamsApps.appDefinitions.DeleteBot

@@ -1,0 +1,3 @@
+teamsTemplates.teamsTemplate.ListTeamsTemplate
+teamsTemplates.teamsTemplate.GetTeamsTemplate
+teamsTemplates.GetCount-3b4a

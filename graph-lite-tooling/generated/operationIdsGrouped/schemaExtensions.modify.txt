@@ -1,0 +1,3 @@
+schemaExtensions.schemaExtension.CreateSchemaExtension
+schemaExtensions.schemaExtension.UpdateSchemaExtension
+schemaExtensions.schemaExtension.DeleteSchemaExtension

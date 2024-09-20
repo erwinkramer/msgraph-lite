@@ -1,0 +1,17 @@
+groups.threads.ListPosts
+groups.threads.GetPosts
+groups.threads.posts.ListAttachments
+groups.threads.posts.GetAttachments
+groups.threads.posts.attachments.GetCount-b54e
+groups.threads.posts.ListExtensions
+groups.threads.posts.GetExtensions
+groups.threads.posts.extensions.GetCount-5e10
+groups.threads.posts.GetInReplyTo
+groups.threads.posts.inReplyTo.ListAttachments
+groups.threads.posts.inReplyTo.GetAttachments
+groups.threads.posts.inReplyTo.attachments.GetCount-5b74
+groups.threads.posts.inReplyTo.ListExtensions
+groups.threads.posts.inReplyTo.GetExtensions
+groups.threads.posts.inReplyTo.extensions.GetCount-364f
+groups.threads.posts.GetCount-fcff
+groups.threads.GetCount-22d8

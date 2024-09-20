@@ -1,0 +1,10 @@
+groups.events.CreateAttachments
+groups.events.DeleteAttachments
+groups.events.CreateExtensions
+groups.events.UpdateExtensions
+groups.events.DeleteExtensions
+groups.events.instances.CreateAttachments
+groups.events.instances.DeleteAttachments
+groups.events.instances.CreateExtensions
+groups.events.instances.UpdateExtensions
+groups.events.instances.DeleteExtensions

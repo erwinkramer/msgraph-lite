@@ -1,0 +1,3 @@
+dataPolicyOperations.dataPolicyOperation.CreateDataPolicyOperation
+dataPolicyOperations.dataPolicyOperation.UpdateDataPolicyOperation
+dataPolicyOperations.dataPolicyOperation.DeleteDataPolicyOperation

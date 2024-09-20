@@ -1,0 +1,15 @@
+domains.domain.CreateDomain
+domains.domain.UpdateDomain
+domains.domain.DeleteDomain
+domains.CreateFederationConfiguration
+domains.UpdateFederationConfiguration
+domains.DeleteFederationConfiguration
+domains.domain.forceDelete
+domains.domain.promote
+domains.domain.verify
+domains.CreateServiceConfigurationRecords
+domains.UpdateServiceConfigurationRecords
+domains.DeleteServiceConfigurationRecords
+domains.CreateVerificationDnsRecords
+domains.UpdateVerificationDnsRecords
+domains.DeleteVerificationDnsRecords

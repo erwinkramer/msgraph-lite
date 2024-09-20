@@ -1,0 +1,3 @@
+scopedRoleMemberships.scopedRoleMembership.ListScopedRoleMembership
+scopedRoleMemberships.scopedRoleMembership.GetScopedRoleMembership
+scopedRoleMemberships.GetCount-dcc4

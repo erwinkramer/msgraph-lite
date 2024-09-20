@@ -1,0 +1,4 @@
+identityProviders.identityProvider.ListIdentityProvider
+identityProviders.identityProvider.GetIdentityProvider
+identityProviders.GetCount-a7d6
+identityProviders.availableProviderTypes

@@ -1,0 +1,10 @@
+users.teamwork.ListAssociatedTeams
+users.teamwork.GetAssociatedTeams
+users.teamwork.associatedTeams.GetTeam
+users.teamwork.associatedTeams.GetCount-97ef
+users.teamwork.ListInstalledApps
+users.teamwork.GetInstalledApps
+users.teamwork.installedApps.GetChat
+users.teamwork.installedApps.GetTeamsApp
+users.teamwork.installedApps.GetTeamsAppDefinition
+users.teamwork.installedApps.GetCount-0292

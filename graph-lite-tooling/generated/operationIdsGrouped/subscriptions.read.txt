@@ -1,0 +1,2 @@
+subscriptions.subscription.ListSubscription
+subscriptions.subscription.GetSubscription

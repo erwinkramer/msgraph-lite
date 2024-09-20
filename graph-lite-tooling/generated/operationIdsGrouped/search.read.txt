@@ -1,0 +1,10 @@
+search.searchEntity.GetSearchEntity
+search.ListAcronyms
+search.GetAcronyms
+search.acronyms.GetCount-b41d
+search.ListBookmarks
+search.GetBookmarks
+search.bookmarks.GetCount-b2b7
+search.ListQnas
+search.GetQnas
+search.qnas.GetCount-ef94

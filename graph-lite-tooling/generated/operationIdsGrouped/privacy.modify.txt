@@ -1,0 +1,9 @@
+privacy.privacy.UpdatePrivacy
+privacy.CreateSubjectRightsRequests
+privacy.UpdateSubjectRightsRequests
+privacy.DeleteSubjectRightsRequests
+privacy.subjectRightsRequests.approvers.UpdateMailboxSettings
+privacy.subjectRightsRequests.collaborators.UpdateMailboxSettings
+privacy.subjectRightsRequests.CreateNotes
+privacy.subjectRightsRequests.UpdateNotes
+privacy.subjectRightsRequests.DeleteNotes

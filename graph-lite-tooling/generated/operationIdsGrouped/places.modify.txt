@@ -1,0 +1,2 @@
+places.place.UpdatePlace
+places.place.DeletePlace

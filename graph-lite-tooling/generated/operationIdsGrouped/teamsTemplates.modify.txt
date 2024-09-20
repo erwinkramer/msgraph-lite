@@ -1,0 +1,3 @@
+teamsTemplates.teamsTemplate.CreateTeamsTemplate
+teamsTemplates.teamsTemplate.UpdateTeamsTemplate
+teamsTemplates.teamsTemplate.DeleteTeamsTemplate

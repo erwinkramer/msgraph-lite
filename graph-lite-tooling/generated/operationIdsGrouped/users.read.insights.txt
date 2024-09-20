@@ -1,0 +1,13 @@
+users.insights.ListShared
+users.insights.GetShared
+users.insights.shared.GetLastSharedMethod
+users.insights.shared.GetResource
+users.insights.shared.GetCount-bfe2
+users.insights.ListTrending
+users.insights.GetTrending
+users.insights.trending.GetResource
+users.insights.trending.GetCount-9a67
+users.insights.ListUsed
+users.insights.GetUsed
+users.insights.used.GetResource
+users.insights.used.GetCount-d5af

@@ -1,0 +1,3 @@
+functions.attributeMappingFunctionSchema.ListAttributeMappingFunctionSchema
+functions.attributeMappingFunctionSchema.GetAttributeMappingFunctionSchema
+functions.GetCount-0c74

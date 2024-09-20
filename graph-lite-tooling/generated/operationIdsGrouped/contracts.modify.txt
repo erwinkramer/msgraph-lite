@@ -1,0 +1,5 @@
+contracts.contract.CreateContract
+contracts.contract.UpdateContract
+contracts.contract.DeleteContract
+contracts.contract.restore
+contracts.validateProperties

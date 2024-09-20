@@ -1,0 +1,3 @@
+oauth2PermissionGrants.oAuth2PermissionGrant.CreateOAuth2PermissionGrant
+oauth2PermissionGrants.oAuth2PermissionGrant.UpdateOAuth2PermissionGrant
+oauth2PermissionGrants.oAuth2PermissionGrant.DeleteOAuth2PermissionGrant

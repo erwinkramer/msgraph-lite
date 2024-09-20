@@ -1,0 +1,5 @@
+directoryObjects.directoryObject.CreateDirectoryObject
+directoryObjects.directoryObject.UpdateDirectoryObject
+directoryObjects.directoryObject.DeleteDirectoryObject
+directoryObjects.directoryObject.restore
+directoryObjects.validateProperties

@@ -1,0 +1,16 @@
+me.managedDevices.GetDeviceCategory
+me.managedDevices.ListDeviceCompliancePolicyStates
+me.managedDevices.GetDeviceCompliancePolicyStates
+me.managedDevices.deviceCompliancePolicyStates.GetCount-c50d
+me.managedDevices.ListDeviceConfigurationStates
+me.managedDevices.GetDeviceConfigurationStates
+me.managedDevices.deviceConfigurationStates.GetCount-c4ef
+me.managedDevices.ListLogCollectionRequests
+me.managedDevices.GetLogCollectionRequests
+me.managedDevices.logCollectionRequests.GetCount-3d53
+me.managedDevices.ListUsers
+me.managedDevices.GetWindowsProtectionState
+me.managedDevices.windowsProtectionState.ListDetectedMalwareState
+me.managedDevices.windowsProtectionState.GetDetectedMalwareState
+me.managedDevices.windowsProtectionState.detectedMalwareState.GetCount-16e6
+me.managedDevices.GetCount-ff2a

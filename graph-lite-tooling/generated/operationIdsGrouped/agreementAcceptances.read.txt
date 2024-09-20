@@ -1,0 +1,2 @@
+agreementAcceptances.agreementAcceptance.ListAgreementAcceptance
+agreementAcceptances.agreementAcceptance.GetAgreementAcceptance

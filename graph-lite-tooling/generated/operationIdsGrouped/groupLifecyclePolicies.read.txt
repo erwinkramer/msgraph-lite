@@ -1,0 +1,3 @@
+groupLifecyclePolicies.groupLifecyclePolicy.ListGroupLifecyclePolicy
+groupLifecyclePolicies.groupLifecyclePolicy.GetGroupLifecyclePolicy
+groupLifecyclePolicies.GetCount-ca62

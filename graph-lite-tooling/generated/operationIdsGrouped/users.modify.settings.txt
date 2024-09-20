@@ -1,0 +1,17 @@
+users.settings.UpdateItemInsights
+users.settings.DeleteItemInsights
+users.settings.UpdateShiftPreferences
+users.settings.DeleteShiftPreferences
+users.settings.UpdateStorage
+users.settings.DeleteStorage
+users.settings.storage.UpdateQuota
+users.settings.storage.DeleteQuota
+users.settings.storage.quota.CreateServices
+users.settings.storage.quota.UpdateServices
+users.settings.storage.quota.DeleteServices
+users.settings.CreateWindows
+users.settings.UpdateWindows
+users.settings.DeleteWindows
+users.settings.windows.CreateInstances
+users.settings.windows.UpdateInstances
+users.settings.windows.DeleteInstances

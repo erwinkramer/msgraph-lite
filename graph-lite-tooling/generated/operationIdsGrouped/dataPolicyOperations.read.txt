@@ -1,0 +1,3 @@
+dataPolicyOperations.dataPolicyOperation.ListDataPolicyOperation
+dataPolicyOperations.dataPolicyOperation.GetDataPolicyOperation
+dataPolicyOperations.GetCount-b129

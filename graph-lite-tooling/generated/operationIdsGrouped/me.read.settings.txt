@@ -1,0 +1,13 @@
+me.settings.GetItemInsights
+me.settings.GetShiftPreferences
+me.settings.GetStorage
+me.settings.storage.GetQuota
+me.settings.storage.quota.ListServices
+me.settings.storage.quota.GetServices
+me.settings.storage.quota.services.GetCount-07a3
+me.settings.ListWindows
+me.settings.GetWindows
+me.settings.windows.ListInstances
+me.settings.windows.GetInstances
+me.settings.windows.instances.GetCount-ef9f
+me.settings.windows.GetCount-c4f1

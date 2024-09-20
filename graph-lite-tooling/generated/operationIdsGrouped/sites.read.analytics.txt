@@ -1,0 +1,10 @@
+sites.analytics.GetAllTime
+sites.analytics.ListItemActivityStats
+sites.analytics.GetItemActivityStats
+sites.analytics.itemActivityStats.ListActivities
+sites.analytics.itemActivityStats.GetActivities
+sites.analytics.itemActivityStats.activities.GetDriveItem
+sites.analytics.itemActivityStats.activities.GetDriveItemContent
+sites.analytics.itemActivityStats.activities.GetCount-972d
+sites.analytics.itemActivityStats.GetCount-c4ac
+sites.analytics.GetLastSevenDays

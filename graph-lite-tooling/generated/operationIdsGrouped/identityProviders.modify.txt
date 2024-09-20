@@ -1,0 +1,3 @@
+identityProviders.identityProvider.CreateIdentityProvider
+identityProviders.identityProvider.UpdateIdentityProvider
+identityProviders.identityProvider.DeleteIdentityProvider

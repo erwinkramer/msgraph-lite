@@ -1,0 +1,4 @@
+subscriptions.subscription.CreateSubscription
+subscriptions.subscription.UpdateSubscription
+subscriptions.subscription.DeleteSubscription
+subscriptions.subscription.reauthorize

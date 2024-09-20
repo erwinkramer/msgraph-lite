@@ -1,0 +1,3 @@
+filterOperators.filterOperatorSchema.CreateFilterOperatorSchema
+filterOperators.filterOperatorSchema.UpdateFilterOperatorSchema
+filterOperators.filterOperatorSchema.DeleteFilterOperatorSchema

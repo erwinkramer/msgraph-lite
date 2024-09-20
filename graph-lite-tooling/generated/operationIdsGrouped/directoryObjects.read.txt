@@ -1,0 +1,10 @@
+directoryObjects.directoryObject.ListDirectoryObject
+directoryObjects.directoryObject.GetDirectoryObject
+directoryObjects.directoryObject.checkMemberGroups
+directoryObjects.directoryObject.checkMemberObjects
+directoryObjects.directoryObject.getMemberGroups
+directoryObjects.directoryObject.getMemberObjects
+directoryObjects.GetCount-3210
+directoryObjects.delta
+directoryObjects.getAvailableExtensionProperties
+directoryObjects.getByIds

@@ -1,0 +1,13 @@
+groups.conversations.CreateThreads
+groups.conversations.UpdateThreads
+groups.conversations.DeleteThreads
+groups.conversations.threads.posts.CreateAttachments
+groups.conversations.threads.posts.DeleteAttachments
+groups.conversations.threads.posts.CreateExtensions
+groups.conversations.threads.posts.UpdateExtensions
+groups.conversations.threads.posts.DeleteExtensions
+groups.conversations.threads.posts.inReplyTo.CreateAttachments
+groups.conversations.threads.posts.inReplyTo.DeleteAttachments
+groups.conversations.threads.posts.inReplyTo.CreateExtensions
+groups.conversations.threads.posts.inReplyTo.UpdateExtensions
+groups.conversations.threads.posts.inReplyTo.DeleteExtensions

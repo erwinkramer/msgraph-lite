@@ -1,0 +1,15 @@
+me.messages.CreateAttachments
+me.messages.DeleteAttachments
+me.messages.message.attachments.createUploadSession
+me.messages.CreateExtensions
+me.messages.UpdateExtensions
+me.messages.DeleteExtensions
+me.messages.message.copy
+me.messages.message.createForward
+me.messages.message.createReply
+me.messages.message.createReplyAll
+me.messages.message.forward
+me.messages.message.move
+me.messages.message.reply
+me.messages.message.replyAll
+me.messages.message.send

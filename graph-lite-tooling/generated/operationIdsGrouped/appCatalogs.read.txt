@@ -1,0 +1,8 @@
+appCatalogs.appCatalogs.GetAppCatalogs
+appCatalogs.ListTeamsApps
+appCatalogs.GetTeamsApps
+appCatalogs.teamsApps.ListAppDefinitions
+appCatalogs.teamsApps.GetAppDefinitions
+appCatalogs.teamsApps.appDefinitions.GetBot
+appCatalogs.teamsApps.appDefinitions.GetCount-ad4f
+appCatalogs.teamsApps.GetCount-d4ad

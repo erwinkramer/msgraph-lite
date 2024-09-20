@@ -1,0 +1,16 @@
+domains.domain.ListDomain
+domains.domain.GetDomain
+domains.ListDomainNameReferences
+domains.GetDomainNameReferences
+domains.domainNameReferences.GetCount-a205
+domains.ListFederationConfiguration
+domains.GetFederationConfiguration
+domains.federationConfiguration.GetCount-9087
+domains.GetRootDomain
+domains.ListServiceConfigurationRecords
+domains.GetServiceConfigurationRecords
+domains.serviceConfigurationRecords.GetCount-999b
+domains.ListVerificationDnsRecords
+domains.GetVerificationDnsRecords
+domains.verificationDnsRecords.GetCount-d5a7
+domains.GetCount-3c31

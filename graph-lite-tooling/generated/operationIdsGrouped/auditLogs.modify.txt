@@ -1,0 +1,10 @@
+auditLogs.auditLogRoot.UpdateAuditLogRoot
+auditLogs.CreateDirectoryAudits
+auditLogs.UpdateDirectoryAudits
+auditLogs.DeleteDirectoryAudits
+auditLogs.CreateProvisioning
+auditLogs.UpdateProvisioning
+auditLogs.DeleteProvisioning
+auditLogs.CreateSignIns
+auditLogs.UpdateSignIns
+auditLogs.DeleteSignIns

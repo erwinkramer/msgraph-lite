@@ -1,0 +1,3 @@
+applicationTemplates.applicationTemplate.ListApplicationTemplate
+applicationTemplates.applicationTemplate.GetApplicationTemplate
+applicationTemplates.GetCount-d1a3

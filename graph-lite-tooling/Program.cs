@@ -5,13 +5,11 @@ var subscriptionId = "beb880cc-af9a-4e4d-8e8e-54739967674f";
 var resourceGroupId = "rg-erwin";
 var apimResourceId = "api-erwin";
 
-var outputDirectoryOperationIdsGrouped = "./out/operationIdsGrouped";
-var outputDirectoryGraphComplete = "./out/graphApiComplete";
-var outputDirectoryGraphPartial = "./out/graphApiPartial";
+var outputDirectoryOperationIdsGrouped = "../../../generated/operationIdsGrouped";
+var outputDirectoryGraphLite = "../../../generated/graphLite";
 
 Directory.CreateDirectory(outputDirectoryOperationIdsGrouped);
-Directory.CreateDirectory(outputDirectoryGraphComplete);
-Directory.CreateDirectory(outputDirectoryGraphPartial);
+Directory.CreateDirectory(outputDirectoryGraphLite);
 
 var httpClient = new HttpClient
 {
@@ -41,7 +39,7 @@ var totalOperationCount = Helper.WriteGroupsToFiles(groupedOperationIds, outputD
 
 Console.WriteLine($"There are {totalOperationCount} operations in the Graph API!");
 
-var apiFiles = await Helper.WriteGroupsAsOpenApiSpecToFiles(groupedOperationIds, outputDirectoryGraphPartial, openApiDocument);
+var apiFiles = await Helper.WriteGroupsAsOpenApiSpecToFiles(groupedOperationIds, outputDirectoryGraphLite, openApiDocument);
 
 foreach (var apiFile in apiFiles)
 {

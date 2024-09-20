@@ -1,0 +1,15 @@
+sites.contentTypes.GetBase
+sites.contentTypes.ListBaseTypes
+sites.contentTypes.GetBaseTypes
+sites.contentTypes.baseTypes.GetCount-6b07
+sites.contentTypes.ListColumnLinks
+sites.contentTypes.GetColumnLinks
+sites.contentTypes.columnLinks.GetCount-7bc1
+sites.contentTypes.ListColumnPositions
+sites.contentTypes.GetColumnPositions
+sites.contentTypes.columnPositions.GetCount-dea9
+sites.contentTypes.ListColumns
+sites.contentTypes.GetColumns
+sites.contentTypes.columns.GetSourceColumn
+sites.contentTypes.columns.GetCount-896b
+sites.contentTypes.GetCount-50aa

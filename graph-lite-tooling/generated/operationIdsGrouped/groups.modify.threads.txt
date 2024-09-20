@@ -1,0 +1,10 @@
+groups.threads.posts.CreateAttachments
+groups.threads.posts.DeleteAttachments
+groups.threads.posts.CreateExtensions
+groups.threads.posts.UpdateExtensions
+groups.threads.posts.DeleteExtensions
+groups.threads.posts.inReplyTo.CreateAttachments
+groups.threads.posts.inReplyTo.DeleteAttachments
+groups.threads.posts.inReplyTo.CreateExtensions
+groups.threads.posts.inReplyTo.UpdateExtensions
+groups.threads.posts.inReplyTo.DeleteExtensions

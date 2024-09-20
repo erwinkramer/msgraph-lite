@@ -1,0 +1,3 @@
+domainDnsRecords.domainDnsRecord.CreateDomainDnsRecord
+domainDnsRecords.domainDnsRecord.UpdateDomainDnsRecord
+domainDnsRecords.domainDnsRecord.DeleteDomainDnsRecord

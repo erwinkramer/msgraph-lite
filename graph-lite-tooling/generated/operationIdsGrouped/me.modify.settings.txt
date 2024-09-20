@@ -1,0 +1,17 @@
+me.settings.UpdateItemInsights
+me.settings.DeleteItemInsights
+me.settings.UpdateShiftPreferences
+me.settings.DeleteShiftPreferences
+me.settings.UpdateStorage
+me.settings.DeleteStorage
+me.settings.storage.UpdateQuota
+me.settings.storage.DeleteQuota
+me.settings.storage.quota.CreateServices
+me.settings.storage.quota.UpdateServices
+me.settings.storage.quota.DeleteServices
+me.settings.CreateWindows
+me.settings.UpdateWindows
+me.settings.DeleteWindows
+me.settings.windows.CreateInstances
+me.settings.windows.UpdateInstances
+me.settings.windows.DeleteInstances

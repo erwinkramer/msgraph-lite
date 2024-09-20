@@ -1,0 +1,3 @@
+subscribedSkus.subscribedSku.CreateSubscribedSku
+subscribedSkus.subscribedSku.UpdateSubscribedSku
+subscribedSkus.subscribedSku.DeleteSubscribedSku

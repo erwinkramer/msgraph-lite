@@ -1,0 +1,9 @@
+invitations.invitation.ListInvitation
+invitations.GetCount-8ff1
+invitations.GetInvitedUser
+invitations.invitedUser.GetMailboxSettings
+invitations.invitedUser.ListServiceProvisioningErrors
+invitations.invitedUser.ServiceProvisioningErrors.GetCount-df29
+invitations.ListInvitedUserSponsors
+invitations.GetInvitedUserSponsors
+invitations.invitedUserSponsors.GetCount-648d

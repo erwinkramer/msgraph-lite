@@ -1,0 +1,10 @@
+auditLogs.auditLogRoot.GetAuditLogRoot
+auditLogs.ListDirectoryAudits
+auditLogs.GetDirectoryAudits
+auditLogs.directoryAudits.GetCount-fedb
+auditLogs.ListProvisioning
+auditLogs.GetProvisioning
+auditLogs.provisioning.GetCount-2f99
+auditLogs.ListSignIns
+auditLogs.GetSignIns
+auditLogs.signIns.GetCount-9ee4

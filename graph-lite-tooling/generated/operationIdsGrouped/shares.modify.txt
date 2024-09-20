@@ -1,0 +1,14 @@
+shares.sharedDriveItem.CreateSharedDriveItem
+shares.sharedDriveItem.UpdateSharedDriveItem
+shares.sharedDriveItem.DeleteSharedDriveItem
+shares.createdByUser.UpdateMailboxSettings
+shares.UpdateDriveItemContent
+shares.DeleteDriveItemContent
+shares.UpdateItemsContent
+shares.DeleteItemsContent
+shares.lastModifiedByUser.UpdateMailboxSettings
+shares.UpdatePermission
+shares.DeletePermission
+shares.sharedDriveItem.permission.grant
+shares.UpdateRootContent
+shares.DeleteRootContent

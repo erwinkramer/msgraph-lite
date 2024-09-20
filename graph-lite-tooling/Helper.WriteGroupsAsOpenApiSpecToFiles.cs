@@ -32,6 +32,8 @@ partial class Helper
 
             // Add the tuple of file path and file name to the list
             fileInfos.Add((outputDirectoryFile, apiName));
+
+            Console.WriteLine($"Created API definition '{fileName}' to path '{outputDirectory}'.");
         }
         // Return the list of tuples
         return fileInfos;

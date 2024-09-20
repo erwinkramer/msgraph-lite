@@ -1,0 +1,16 @@
+users.calendar.CreateCalendarPermissions
+users.calendar.UpdateCalendarPermissions
+users.calendar.DeleteCalendarPermissions
+users.calendar.CreateEvents
+users.calendar.UpdateEvents
+users.calendar.DeleteEvents
+users.calendar.events.CreateAttachments
+users.calendar.events.DeleteAttachments
+users.calendar.events.CreateExtensions
+users.calendar.events.UpdateExtensions
+users.calendar.events.DeleteExtensions
+users.calendar.events.instances.CreateAttachments
+users.calendar.events.instances.DeleteAttachments
+users.calendar.events.instances.CreateExtensions
+users.calendar.events.instances.UpdateExtensions
+users.calendar.events.instances.DeleteExtensions

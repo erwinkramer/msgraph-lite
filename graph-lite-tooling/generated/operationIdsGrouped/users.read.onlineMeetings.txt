@@ -1,0 +1,16 @@
+users.onlineMeetings.ListAttendanceReports
+users.onlineMeetings.GetAttendanceReports
+users.onlineMeetings.attendanceReports.ListAttendanceRecords
+users.onlineMeetings.attendanceReports.GetAttendanceRecords
+users.onlineMeetings.attendanceReports.attendanceRecords.GetCount-3340
+users.onlineMeetings.attendanceReports.GetCount-e849
+users.onlineMeetings.ListRecordings
+users.onlineMeetings.GetRecordings
+users.onlineMeetings.GetRecordingsContent
+users.onlineMeetings.recordings.GetCount-6c9a
+users.onlineMeetings.ListTranscripts
+users.onlineMeetings.GetTranscripts
+users.onlineMeetings.GetTranscriptsContent
+users.onlineMeetings.GetTranscriptsMetadataContent
+users.onlineMeetings.transcripts.GetCount-3b6f
+users.onlineMeetings.GetCount-1fc7

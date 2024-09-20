@@ -1,0 +1,13 @@
+places.place.GetPlace.AsRoom
+places.place.GetPlace.AsRoomList
+places.AsRoomList.ListRooms
+places.AsRoomList.CreateRooms
+places.AsRoomList.GetRooms
+places.AsRoomList.UpdateRooms
+places.AsRoomList.DeleteRooms
+places.AsRoomList.rooms.GetCount-b534
+places.GetCount-f02b
+places.place.ListPlace.AsRoom
+places.place.Place.GetCount.AsRoom-56fc
+places.place.ListPlace.AsRoomList
+places.place.Place.GetCount.AsRoomList-e9fd

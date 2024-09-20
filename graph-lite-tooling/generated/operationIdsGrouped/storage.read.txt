@@ -1,0 +1,14 @@
+storage.storage.GetStorage
+storage.GetFileStorage
+storage.fileStorage.ListContainers
+storage.fileStorage.GetContainers
+storage.fileStorage.containers.GetDrive
+storage.fileStorage.containers.ListPermissions
+storage.fileStorage.containers.GetPermissions
+storage.fileStorage.containers.permissions.GetCount-b191
+storage.fileStorage.containers.GetCount-4ea4
+storage.GetSettings
+storage.settings.GetQuota
+storage.settings.quota.ListServices
+storage.settings.quota.GetServices
+storage.settings.quota.services.GetCount-3385

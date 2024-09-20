@@ -1,0 +1,16 @@
+devices.device.CreateDevice
+devices.device.UpdateDevice
+devices.device.DeleteDevice
+devices.CreateExtensions
+devices.UpdateExtensions
+devices.DeleteExtensions
+devices.device.restore
+devices.registeredOwners.DeleteRefDirectoryObject
+devices.CreateRefRegisteredOwners
+devices.DeleteRefRegisteredOwners
+devices.registeredUsers.DeleteRefDirectoryObject
+devices.CreateRefRegisteredUsers
+devices.DeleteRefRegisteredUsers
+devices.device.UpdateDeviceByDeviceId
+devices.device.DeleteDeviceByDeviceId
+devices.validateProperties

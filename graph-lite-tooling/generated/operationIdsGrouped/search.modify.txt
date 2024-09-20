@@ -1,0 +1,11 @@
+search.searchEntity.UpdateSearchEntity
+search.CreateAcronyms
+search.UpdateAcronyms
+search.DeleteAcronyms
+search.CreateBookmarks
+search.UpdateBookmarks
+search.DeleteBookmarks
+search.query
+search.CreateQnas
+search.UpdateQnas
+search.DeleteQnas
