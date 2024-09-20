@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "graph-lite-tooling", "graph-lite-tooling\graph-lite-tooling.csproj", "{75653816-04EB-49D0-A643-55B7068D778B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75653816-04EB-49D0-A643-55B7068D778B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75653816-04EB-49D0-A643-55B7068D778B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75653816-04EB-49D0-A643-55B7068D778B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75653816-04EB-49D0-A643-55B7068D778B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E1A3429-6779-40EF-8135-88E5D7DA8236}
+	EndGlobalSection
+EndGlobal
