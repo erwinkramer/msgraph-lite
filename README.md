@@ -32,7 +32,7 @@ This currently results into 244 Lite APIs, averaging about 60 operations per Lit
 
 ## Importing into Azure API Management
 
-Graph Lite has the ability to automatically import the whole sliced Graph API into API Management. This introduces more possiblities building a robust facade in front of the Graph API, for instance by;
+Graph Lite has the ability to automatically import the whole sliced Graph API into API Management. This introduces more possibilities building a robust facade in front of the Graph API, for instance by;
 
 - placing specific parts of the Graph API into seperate API Management products with specific product policies;
 - abstracting authentication and finer grained authorization with [credential manager](https://learn.microsoft.com/en-us/azure/api-management/credentials-overview);
