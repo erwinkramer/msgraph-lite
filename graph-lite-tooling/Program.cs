@@ -5,8 +5,8 @@ var subscriptionId = "beb880cc-af9a-4e4d-8e8e-54739967674f";
 var resourceGroupId = "rg-erwin";
 var apimResourceId = "api-erwin";
 
-var outputDirectoryOperationIdsGrouped = "../../../generated/operationIdsGrouped";
-var outputDirectoryGraphLite = "../../../generated/graphLite";
+var outputDirectoryOperationIdsGrouped = "../../../../generated/operationIdsGrouped";
+var outputDirectoryGraphLite = "../../../../generated/graphLite";
 
 Directory.CreateDirectory(outputDirectoryOperationIdsGrouped);
 Directory.CreateDirectory(outputDirectoryGraphLite);

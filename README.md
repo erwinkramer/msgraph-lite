@@ -44,6 +44,10 @@ Graph Lite has the ability to automatically import the whole sliced Graph API in
 2. Replace the vars at [program.cs](./graph-lite-tooling/Program.cs) accordingly.
 3. Build and run [graph-lite-tooling](./graph-lite-tooling) with VSCode or any tool that supports `.csproj` files.
 
+## Generated definitions
+
+Generated definitions can be found under [generated/graphLite](./generated/graphLite/).
+
 ## Issues
 
 The generated OpenAPI definition from [microsoftgraph/msgraph-metadata](https://github.com/microsoftgraph/msgraph-metadata/tree/master/openapi/v1.0) does not comply to the OpenAPI standard. It has [Duplicate operationId's in the OpenAPI doc (/drives/* operations) #691](https://github.com/microsoftgraph/msgraph-metadata/issues/691). Graph Lite will throw a non-terminating information message when importing (a Lite API that has this issue) into API Management.
