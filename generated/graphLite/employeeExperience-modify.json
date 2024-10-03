@@ -1266,7 +1266,8 @@
           "@odata.type": {
             "type": "string"
           }
-        }
+        },
+        "description": "Represents a container that exposes navigation properties for employee experience resources."
       },
       "microsoft.graph.community": {
         "allOf": [
@@ -1320,7 +1321,8 @@
               "@odata.type": {
                 "type": "string"
               }
-            }
+            },
+            "description": "Represents a community in Viva Engage that is a central place for conversations,\nfiles, events, and updates for people sharing a common interest or goal."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.community"
@@ -1449,7 +1451,8 @@
               "@odata.type": {
                 "type": "string"
               }
-            }
+            },
+            "description": "Represents the status of a Viva Engage async operation that is an operation that transcends the\nlifetime of a single API request. These operations are long-running or too expensive to complete\nwithin the time frame of their original request."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.engagementAsyncOperation"
@@ -2646,6 +2649,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",
@@ -2710,7 +2714,29 @@
           "private",
           "unknownFutureValue"
         ],
-        "type": "string"
+        "type": "string",
+        "description": "Types of communityPrivacy.",
+        "x-ms-enum": {
+          "name": "communityPrivacy",
+          "modelAsString": false,
+          "values": [
+            {
+              "value": "public",
+              "description": "Any user from the tenant can join and participate in the community.",
+              "name": "public"
+            },
+            {
+              "value": "private",
+              "description": "A community administrator must add tenant users to the community before they can participate.",
+              "name": "private"
+            },
+            {
+              "value": "unknownFutureValue",
+              "description": "A marker value for members added after the release of this API.",
+              "name": "unknownFutureValue"
+            }
+          ]
+        }
       },
       "microsoft.graph.group": {
         "allOf": [
@@ -3211,7 +3237,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.group"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra group."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.group"
@@ -3582,7 +3609,7 @@
                     "nullable": true
                   }
                 ],
-                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values)."
+                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values). To update this property:  In delegated access, the calling app must be assigned the Directory.AccessAsUser.All delegated permission on behalf of the signed-in user.  In application-only access, the calling app must be assigned the User.ReadWrite.All (least privilege) or Directory.ReadWrite.All (higher privilege) application permission and at least the User Administrator Microsoft Entra role."
               },
               "pastProjects": {
                 "type": "array",
@@ -4213,7 +4240,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.user"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra user account."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.user"
@@ -4437,6 +4465,7 @@
                 "type": "string"
               }
             },
+            "description": "The status of a long-running operation.",
             "discriminator": {
               "propertyName": "@odata.type",
               "mapping": {
@@ -4454,7 +4483,24 @@
           "createCommunity",
           "unknownFutureValue"
         ],
-        "type": "string"
+        "type": "string",
+        "description": "Types of engagementAsyncOperationType. Members will be added here as more async operations are supported.",
+        "x-ms-enum": {
+          "name": "engagementAsyncOperationType",
+          "modelAsString": false,
+          "values": [
+            {
+              "value": "createCommunity",
+              "description": "Operation to create a Viva Engage community.",
+              "name": "createCommunity"
+            },
+            {
+              "value": "unknownFutureValue",
+              "description": "A marker value for members added after the release of this API.",
+              "name": "unknownFutureValue"
+            }
+          ]
+        }
       },
       "microsoft.graph.courseStatus": {
         "title": "courseStatus",
@@ -11833,7 +11879,8 @@
               "@odata.type": {
                 "type": "string"
               }
-            }
+            },
+            "description": "The status of a long-running operation."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.richLongRunningOperation"

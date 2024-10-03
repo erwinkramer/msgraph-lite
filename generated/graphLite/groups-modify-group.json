@@ -20,11 +20,11 @@
         "tags": [
           "groups.group"
         ],
-        "summary": "Create group",
-        "description": "Create a new group as specified in the request body. You can create the following types of groups: This operation returns by default only a subset of the properties for each group. These default properties are noted in the Properties section. To get properties that are not returned by default, do a GET operation and specify the properties in a $select OData query option.",
+        "summary": "Upsert group",
+        "description": "Create a new group object if it doesn't exist, or update the properties of an existing group object.\nYou can create or update the following types of group: By default, this operation returns only a subset of the properties for each group. For a list of properties that are returned by default, see the Properties section of the group resource. To get properties that are not returned by default, do a GET operation and specify the properties in a $select OData query option.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/group-post-groups?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/group-upsert?view=graph-rest-1.0"
         },
         "operationId": "groups.group.CreateGroup",
         "requestBody": {
@@ -1395,10 +1395,10 @@
           "groups.Actions"
         ],
         "summary": "Invoke action reply",
-        "description": "Reply to a post and add a new post to the specified thread in a group conversation.  You can specify both the parent conversation and thread in the request, or, you can specify just the parent thread without the parent conversation.",
+        "description": "Create an open extension (openTypeExtension object) and add custom properties in a new or existing instance of a resource. You can create an open extension in a resource instance and store custom data to it all in the same operation, except for specific resources. The table in the Permissions section lists the resources that support open extensions.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/post-reply?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/opentypeextension-post-opentypeextension?view=graph-rest-1.0"
         },
         "operationId": "groups.group.conversations.conversation.threads.conversationThread.reply",
         "requestBody": {
@@ -3673,24 +3673,6 @@
           "url": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0"
         },
         "operationId": "groups.group.restore",
-        "requestBody": {
-          "description": "Action parameters",
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "autoReconcileProxyConflict": {
-                    "type": "boolean",
-                    "default": false,
-                    "nullable": true
-                  }
-                }
-              }
-            }
-          },
-          "required": true
-        },
         "responses": {
           "2XX": {
             "description": "Success",
@@ -11045,10 +11027,10 @@
           "groups.Actions"
         ],
         "summary": "Invoke action reply",
-        "description": "Reply to a post and add a new post to the specified thread in a group conversation.  You can specify both the parent conversation and thread in the request, or, you can specify just the parent thread without the parent conversation.",
+        "description": "Create an open extension (openTypeExtension object) and add custom properties in a new or existing instance of a resource. You can create an open extension in a resource instance and store custom data to it all in the same operation, except for specific resources. The table in the Permissions section lists the resources that support open extensions.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/post-reply?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/opentypeextension-post-opentypeextension?view=graph-rest-1.0"
         },
         "operationId": "groups.group.threads.conversationThread.reply",
         "requestBody": {
@@ -12195,7 +12177,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.group"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra group."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.group"
@@ -16097,6 +16080,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",
@@ -17389,7 +17373,8 @@
               "@odata.type": {
                 "type": "string"
               }
-            }
+            },
+            "description": "The status of a long-running operation."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.richLongRunningOperation"
@@ -20459,7 +20444,7 @@
                     "nullable": true
                   }
                 ],
-                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values)."
+                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values). To update this property:  In delegated access, the calling app must be assigned the Directory.AccessAsUser.All delegated permission on behalf of the signed-in user.  In application-only access, the calling app must be assigned the User.ReadWrite.All (least privilege) or Directory.ReadWrite.All (higher privilege) application permission and at least the User Administrator Microsoft Entra role."
               },
               "pastProjects": {
                 "type": "array",
@@ -21090,7 +21075,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.user"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra user account."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.user"
@@ -21566,6 +21552,7 @@
                 "type": "string"
               }
             },
+            "description": "The status of a long-running operation.",
             "discriminator": {
               "propertyName": "@odata.type",
               "mapping": {

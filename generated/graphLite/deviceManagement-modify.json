@@ -24,7 +24,7 @@
         "description": "Update the properties of a deviceManagement object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-devices-devicemanagement-update?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-androidforwork-devicemanagement-update?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.deviceManagement.UpdateDeviceManagement",
         "requestBody": {
@@ -756,11 +756,11 @@
         "tags": [
           "deviceManagement.deviceCompliancePolicy"
         ],
-        "summary": "Create windows10MobileCompliancePolicy",
-        "description": "Create a new windows10MobileCompliancePolicy object.",
+        "summary": "Create windows10CompliancePolicy",
+        "description": "Create a new windows10CompliancePolicy object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows10mobilecompliancepolicy-create?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows10compliancepolicy-create?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.CreateDeviceCompliancePolicies",
         "requestBody": {
@@ -800,11 +800,11 @@
         "tags": [
           "deviceManagement.deviceCompliancePolicy"
         ],
-        "summary": "Update windows81CompliancePolicy",
-        "description": "Update the properties of a windows81CompliancePolicy object.",
+        "summary": "Update androidCompliancePolicy",
+        "description": "Update the properties of a androidCompliancePolicy object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows81compliancepolicy-update?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-androidcompliancepolicy-update?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.UpdateDeviceCompliancePolicies",
         "requestBody": {
@@ -842,11 +842,11 @@
         "tags": [
           "deviceManagement.deviceCompliancePolicy"
         ],
-        "summary": "Delete windows81CompliancePolicy",
-        "description": "Deletes a windows81CompliancePolicy.",
+        "summary": "Delete androidWorkProfileCompliancePolicy",
+        "description": "Deletes a androidWorkProfileCompliancePolicy.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows81compliancepolicy-delete?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-androidworkprofilecompliancepolicy-delete?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.DeleteDeviceCompliancePolicies",
         "parameters": [
@@ -2447,11 +2447,11 @@
         "tags": [
           "deviceManagement.deviceConfiguration"
         ],
-        "summary": "Create windows10TeamGeneralConfiguration",
-        "description": "Create a new windows10TeamGeneralConfiguration object.",
+        "summary": "Create windows10EndpointProtectionConfiguration",
+        "description": "Create a new windows10EndpointProtectionConfiguration object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows10teamgeneralconfiguration-create?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows10endpointprotectionconfiguration-create?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.CreateDeviceConfigurations",
         "requestBody": {
@@ -2491,11 +2491,11 @@
         "tags": [
           "deviceManagement.deviceConfiguration"
         ],
-        "summary": "Update windows10SecureAssessmentConfiguration",
-        "description": "Update the properties of a windows10SecureAssessmentConfiguration object.",
+        "summary": "Update windows10GeneralConfiguration",
+        "description": "Update the properties of a windows10GeneralConfiguration object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows10secureassessmentconfiguration-update?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows10generalconfiguration-update?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.UpdateDeviceConfigurations",
         "requestBody": {
@@ -2533,11 +2533,11 @@
         "tags": [
           "deviceManagement.deviceConfiguration"
         ],
-        "summary": "Delete editionUpgradeConfiguration",
-        "description": "Deletes a editionUpgradeConfiguration.",
+        "summary": "Delete windows10SecureAssessmentConfiguration",
+        "description": "Deletes a windows10SecureAssessmentConfiguration.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-editionupgradeconfiguration-delete?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-deviceconfig-windows10secureassessmentconfiguration-delete?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.DeleteDeviceConfigurations",
         "parameters": [
@@ -3309,11 +3309,11 @@
         "tags": [
           "deviceManagement.deviceEnrollmentConfiguration"
         ],
-        "summary": "Create deviceEnrollmentWindowsHelloForBusinessConfiguration",
-        "description": "Create a new deviceEnrollmentWindowsHelloForBusinessConfiguration object.",
+        "summary": "Create deviceEnrollmentLimitConfiguration",
+        "description": "Create a new deviceEnrollmentLimitConfiguration object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-onboarding-deviceenrollmentwindowshelloforbusinessconfiguration-create?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-onboarding-deviceenrollmentlimitconfiguration-create?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.CreateDeviceEnrollmentConfigurations",
         "requestBody": {
@@ -3395,11 +3395,11 @@
         "tags": [
           "deviceManagement.deviceEnrollmentConfiguration"
         ],
-        "summary": "Delete deviceEnrollmentPlatformRestrictionsConfiguration",
-        "description": "Deletes a deviceEnrollmentPlatformRestrictionsConfiguration.",
+        "summary": "Delete deviceEnrollmentWindowsHelloForBusinessConfiguration",
+        "description": "Deletes a deviceEnrollmentWindowsHelloForBusinessConfiguration.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-onboarding-deviceenrollmentplatformrestrictionsconfiguration-delete?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-onboarding-deviceenrollmentwindowshelloforbusinessconfiguration-delete?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.DeleteDeviceEnrollmentConfigurations",
         "parameters": [
@@ -7448,11 +7448,11 @@
         "tags": [
           "deviceManagement.roleDefinition"
         ],
-        "summary": "Delete roleDefinition",
-        "description": "Deletes a roleDefinition.",
+        "summary": "Delete deviceAndAppManagementRoleDefinition",
+        "description": "Deletes a deviceAndAppManagementRoleDefinition.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-rbac-roledefinition-delete?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-rbac-deviceandappmanagementroledefinition-delete?view=graph-rest-1.0"
         },
         "operationId": "deviceManagement.DeleteRoleDefinitions",
         "parameters": [
@@ -21838,6 +21838,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",
@@ -24574,7 +24575,7 @@
                     "nullable": true
                   }
                 ],
-                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values)."
+                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values). To update this property:  In delegated access, the calling app must be assigned the Directory.AccessAsUser.All delegated permission on behalf of the signed-in user.  In application-only access, the calling app must be assigned the User.ReadWrite.All (least privilege) or Directory.ReadWrite.All (higher privilege) application permission and at least the User Administrator Microsoft Entra role."
               },
               "pastProjects": {
                 "type": "array",
@@ -25205,7 +25206,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.user"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra user account."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.user"
@@ -32667,6 +32669,7 @@
                 "type": "string"
               }
             },
+            "description": "The status of a long-running operation.",
             "discriminator": {
               "propertyName": "@odata.type",
               "mapping": {
@@ -35681,7 +35684,8 @@
               "@odata.type": {
                 "type": "string"
               }
-            }
+            },
+            "description": "The status of a long-running operation."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.richLongRunningOperation"
@@ -36829,7 +36833,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.group"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra group."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.group"

@@ -24,7 +24,7 @@
         "description": "Update the properties of a deviceAppManagement object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-apps-deviceappmanagement-update?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-unlock-deviceappmanagement-update?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.deviceAppManagement.UpdateDeviceAppManagement",
         "requestBody": {
@@ -4800,11 +4800,11 @@
         "tags": [
           "deviceAppManagement.mobileApp"
         ],
-        "summary": "Create macOSLobApp",
-        "description": "Create a new macOSLobApp object.",
+        "summary": "Create windowsAppX",
+        "description": "Create a new windowsAppX object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-apps-macoslobapp-create?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-apps-windowsappx-create?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.CreateMobileApps",
         "requestBody": {
@@ -4844,11 +4844,11 @@
         "tags": [
           "deviceAppManagement.mobileApp"
         ],
-        "summary": "Update microsoftStoreForBusinessApp",
-        "description": "Update the properties of a microsoftStoreForBusinessApp object.",
+        "summary": "Update managedIOSStoreApp",
+        "description": "Update the properties of a managedIOSStoreApp object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-apps-microsoftstoreforbusinessapp-update?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-apps-managediosstoreapp-update?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.UpdateMobileApps",
         "requestBody": {
@@ -4886,11 +4886,11 @@
         "tags": [
           "deviceAppManagement.mobileApp"
         ],
-        "summary": "Delete androidStoreApp",
-        "description": "Deletes a androidStoreApp.",
+        "summary": "Delete managedIOSStoreApp",
+        "description": "Deletes a managedIOSStoreApp.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-apps-androidstoreapp-delete?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-apps-managediosstoreapp-delete?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.DeleteMobileApps",
         "parameters": [
@@ -18229,6 +18229,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",

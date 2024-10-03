@@ -1068,24 +1068,6 @@
           "url": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0"
         },
         "operationId": "applications.application.restore",
-        "requestBody": {
-          "description": "Action parameters",
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "autoReconcileProxyConflict": {
-                    "type": "boolean",
-                    "default": false,
-                    "nullable": true
-                  }
-                }
-              }
-            }
-          },
-          "required": true
-        },
         "responses": {
           "2XX": {
             "description": "Success",
@@ -4371,7 +4353,7 @@
           },
           "displayName": {
             "type": "string",
-            "description": "Friendly name for the key. Optional.",
+            "description": "The friendly name for the key, with a maximum length of 90 characters. Longer values are accepted but shortened. Optional.",
             "nullable": true
           },
           "endDateTime": {
@@ -4383,7 +4365,7 @@
           },
           "key": {
             "type": "string",
-            "description": "The certificate's raw data in byte array converted to Base64 string. Returned only on $select for a single object, that is, GET applications/{applicationId}?$select=keyCredentials or GET servicePrincipals/{servicePrincipalId}?$select=keyCredentials; otherwise, it is always null.  From a .cer certificate, you can read the key using the Convert.ToBase64String() method. For more information, see Get the certificate key.",
+            "description": "The certificate's raw data in byte array converted to Base64 string. Returned only on $select for a single object, that is, GET applications/{applicationId}?$select=keyCredentials or GET servicePrincipals/{servicePrincipalId}?$select=keyCredentials; otherwise, it's always null.  From a .cer certificate, you can read the key using the Convert.ToBase64String() method. For more information, see Get the certificate key.",
             "format": "base64url",
             "nullable": true
           },
@@ -6581,6 +6563,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",

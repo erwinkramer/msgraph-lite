@@ -52,8 +52,6 @@ Generated definitions can be found under [generated/graphLite](./generated/graph
 
 The generated OpenAPI definition from [microsoftgraph/msgraph-metadata](https://github.com/microsoftgraph/msgraph-metadata/tree/master/openapi/v1.0) does not comply to the OpenAPI standard. It has [Duplicate operationId's in the OpenAPI doc (/drives/* operations) #691](https://github.com/microsoftgraph/msgraph-metadata/issues/691). Graph Lite will throw a non-terminating information message when importing (a Lite API that has this issue) into API Management.
 
-The OpenAPI.NET library, which is used in this project, has issues with [Duplicate parameters on operation filter #1833](https://github.com/microsoft/OpenAPI.NET/issues/1833). Graph Lite works around this by removing duplicate parameters.
-
 ## Considerations
 
 - The PowerShell SDK slices the API into some large chunks: [msgraph-sdk-powershell](https://github.com/microsoftgraph/msgraph-sdk-powershell/tree/dev/openApiDocs/v1.0), but that still isn't practical to use in most cases.

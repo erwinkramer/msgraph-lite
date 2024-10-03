@@ -90,6 +90,8 @@ security.cases.ediscoveryCases.searches.CreateAdditionalSources
 security.cases.ediscoveryCases.searches.UpdateAdditionalSources
 security.cases.ediscoveryCases.searches.DeleteAdditionalSources
 security.cases.ediscoveryCases.ediscoveryCase.searches.ediscoverySearch.estimateStatistics
+security.cases.ediscoveryCases.ediscoveryCase.searches.ediscoverySearch.exportReport
+security.cases.ediscoveryCases.ediscoveryCase.searches.ediscoverySearch.exportResult
 security.cases.ediscoveryCases.ediscoveryCase.searches.ediscoverySearch.purgeData
 security.cases.ediscoveryCases.UpdateSettings
 security.cases.ediscoveryCases.DeleteSettings

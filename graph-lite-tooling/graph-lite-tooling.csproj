@@ -11,8 +11,8 @@
     <PackageReference Include="Azure.Core" Version="1.43.0" />
     <PackageReference Include="Azure.Identity" Version="1.12.0" />
     <PackageReference Include="Microsoft.Azure.Management.ApiManagement" Version="8.0.0-preview" />
-    <PackageReference Include="Microsoft.OpenApi" Version="1.6.21" />
-    <PackageReference Include="Microsoft.OpenApi.Readers" Version="1.6.21" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.6.22" />
+    <PackageReference Include="Microsoft.OpenApi.Readers" Version="1.6.22" />
     <PackageReference Include="Microsoft.Rest.ClientRuntime.Azure.Authentication" Version="2.4.1" />
   </ItemGroup>
 

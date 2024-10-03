@@ -4380,6 +4380,220 @@
         }
       ]
     },
+    "/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.exportReport": {
+      "post": {
+        "tags": [
+          "security.Actions"
+        ],
+        "summary": "Invoke action exportReport",
+        "operationId": "security.cases.ediscoveryCases.ediscoveryCase.searches.ediscoverySearch.exportReport",
+        "requestBody": {
+          "description": "Action parameters",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "displayName": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "description": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "exportCriteria": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/microsoft.graph.security.exportCriteria"
+                      },
+                      {
+                        "type": "object",
+                        "nullable": true
+                      }
+                    ]
+                  },
+                  "exportLocation": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/microsoft.graph.security.exportLocation"
+                      },
+                      {
+                        "type": "object",
+                        "nullable": true
+                      }
+                    ]
+                  },
+                  "additionalOptions": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/microsoft.graph.security.additionalOptions"
+                      },
+                      {
+                        "type": "object",
+                        "nullable": true
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Success"
+          },
+          "4XX": {
+            "$ref": "#/components/responses/error"
+          },
+          "5XX": {
+            "$ref": "#/components/responses/error"
+          }
+        },
+        "x-ms-docs-operation-type": "action"
+      },
+      "parameters": [
+        {
+          "name": "ediscoveryCase-id",
+          "in": "path",
+          "description": "The unique identifier of ediscoveryCase",
+          "required": true,
+          "style": "simple",
+          "schema": {
+            "type": "string"
+          },
+          "x-ms-docs-key-type": "ediscoveryCase"
+        },
+        {
+          "name": "ediscoverySearch-id",
+          "in": "path",
+          "description": "The unique identifier of ediscoverySearch",
+          "required": true,
+          "style": "simple",
+          "schema": {
+            "type": "string"
+          },
+          "x-ms-docs-key-type": "ediscoverySearch"
+        }
+      ]
+    },
+    "/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.exportResult": {
+      "post": {
+        "tags": [
+          "security.Actions"
+        ],
+        "summary": "Invoke action exportResult",
+        "operationId": "security.cases.ediscoveryCases.ediscoveryCase.searches.ediscoverySearch.exportResult",
+        "requestBody": {
+          "description": "Action parameters",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "displayName": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "description": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "exportCriteria": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/microsoft.graph.security.exportCriteria"
+                      },
+                      {
+                        "type": "object",
+                        "nullable": true
+                      }
+                    ]
+                  },
+                  "exportLocation": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/microsoft.graph.security.exportLocation"
+                      },
+                      {
+                        "type": "object",
+                        "nullable": true
+                      }
+                    ]
+                  },
+                  "additionalOptions": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/microsoft.graph.security.additionalOptions"
+                      },
+                      {
+                        "type": "object",
+                        "nullable": true
+                      }
+                    ]
+                  },
+                  "exportFormat": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/microsoft.graph.security.exportFormat"
+                      },
+                      {
+                        "type": "object",
+                        "nullable": true
+                      }
+                    ]
+                  },
+                  "exportSingleItems": {
+                    "type": "boolean",
+                    "default": false,
+                    "nullable": true
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Success"
+          },
+          "4XX": {
+            "$ref": "#/components/responses/error"
+          },
+          "5XX": {
+            "$ref": "#/components/responses/error"
+          }
+        },
+        "x-ms-docs-operation-type": "action"
+      },
+      "parameters": [
+        {
+          "name": "ediscoveryCase-id",
+          "in": "path",
+          "description": "The unique identifier of ediscoveryCase",
+          "required": true,
+          "style": "simple",
+          "schema": {
+            "type": "string"
+          },
+          "x-ms-docs-key-type": "ediscoveryCase"
+        },
+        {
+          "name": "ediscoverySearch-id",
+          "in": "path",
+          "description": "The unique identifier of ediscoverySearch",
+          "required": true,
+          "style": "simple",
+          "schema": {
+            "type": "string"
+          },
+          "x-ms-docs-key-type": "ediscoverySearch"
+        }
+      ]
+    },
     "/security/cases/ediscoveryCases/{ediscoveryCase-id}/searches/{ediscoverySearch-id}/microsoft.graph.security.purgeData": {
       "post": {
         "tags": [
@@ -10908,7 +11122,8 @@
               "@odata.type": {
                 "type": "string"
               }
-            }
+            },
+            "description": "The status of a long-running operation."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.attackSimulationOperation"
@@ -12280,6 +12495,7 @@
                 "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
                 "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
                 "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+                "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
                 "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation"
               }
             }
@@ -12368,6 +12584,56 @@
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.security.ediscoverySearch"
+      },
+      "microsoft.graph.security.exportCriteria": {
+        "title": "exportCriteria",
+        "enum": [
+          "searchHits",
+          "partiallyIndexed",
+          "unknownFutureValue"
+        ],
+        "type": "string",
+        "x-ms-enum-flags": {
+          "isFlags": true
+        }
+      },
+      "microsoft.graph.security.exportLocation": {
+        "title": "exportLocation",
+        "enum": [
+          "responsiveLocations",
+          "nonresponsiveLocations",
+          "unknownFutureValue"
+        ],
+        "type": "string",
+        "x-ms-enum-flags": {
+          "isFlags": true
+        }
+      },
+      "microsoft.graph.security.additionalOptions": {
+        "title": "additionalOptions",
+        "enum": [
+          "none",
+          "teamsAndYammerConversations",
+          "cloudAttachments",
+          "allDocumentVersions",
+          "subfolderContents",
+          "listAttachments",
+          "unknownFutureValue"
+        ],
+        "type": "string",
+        "x-ms-enum-flags": {
+          "isFlags": true
+        }
+      },
+      "microsoft.graph.security.exportFormat": {
+        "title": "exportFormat",
+        "enum": [
+          "pst",
+          "msg",
+          "eml",
+          "unknownFutureValue"
+        ],
+        "type": "string"
       },
       "microsoft.graph.security.purgeType": {
         "title": "purgeType",
@@ -16443,6 +16709,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",
@@ -17764,6 +18031,7 @@
                 "type": "string"
               }
             },
+            "description": "The status of a long-running operation.",
             "discriminator": {
               "propertyName": "@odata.type",
               "mapping": {
@@ -19187,7 +19455,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.group"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra group."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.group"
@@ -19215,7 +19484,9 @@
           "addToReviewSet",
           "holdUpdate",
           "unknownFutureValue",
-          "purgeData"
+          "purgeData",
+          "exportReport",
+          "exportResult"
         ],
         "type": "string"
       },
@@ -20806,7 +21077,7 @@
                     "nullable": true
                   }
                 ],
-                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values)."
+                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values). To update this property:  In delegated access, the calling app must be assigned the Directory.AccessAsUser.All delegated permission on behalf of the signed-in user.  In application-only access, the calling app must be assigned the User.ReadWrite.All (least privilege) or Directory.ReadWrite.All (higher privilege) application permission and at least the User Administrator Microsoft Entra role."
               },
               "pastProjects": {
                 "type": "array",
@@ -21437,7 +21708,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.user"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra user account."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.user"
@@ -24419,7 +24691,8 @@
               "@odata.type": {
                 "type": "string"
               }
-            }
+            },
+            "description": "The status of a long-running operation."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.richLongRunningOperation"

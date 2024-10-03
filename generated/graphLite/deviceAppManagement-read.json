@@ -24,7 +24,7 @@
         "description": "Read properties and relationships of the deviceAppManagement object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-policyset-deviceappmanagement-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-books-deviceappmanagement-get?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.deviceAppManagement.GetDeviceAppManagement",
         "parameters": [
@@ -2008,11 +2008,11 @@
         "tags": [
           "deviceAppManagement.managedAppPolicy"
         ],
-        "summary": "List windowsInformationProtections",
-        "description": "List properties and relationships of the windowsInformationProtection objects.",
+        "summary": "List managedAppPolicies",
+        "description": "List properties and relationships of the managedAppPolicy objects.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-windowsinformationprotection-list?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedapppolicy-list?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.ListManagedAppPolicies",
         "parameters": [
@@ -2097,11 +2097,11 @@
         "tags": [
           "deviceAppManagement.managedAppPolicy"
         ],
-        "summary": "Get windowsInformationProtection",
-        "description": "Read properties and relationships of the windowsInformationProtection object.",
+        "summary": "Get managedAppConfiguration",
+        "description": "Read properties and relationships of the managedAppConfiguration object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-windowsinformationprotection-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappconfiguration-get?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.GetManagedAppPolicies",
         "parameters": [
@@ -2177,7 +2177,7 @@
         "description": "Not yet documented",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappprotection-targetapps?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-targetedmanagedappprotection-targetapps?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.managedAppPolicies.managedAppPolicy.targetApps",
         "requestBody": {
@@ -2259,11 +2259,11 @@
         "tags": [
           "deviceAppManagement.managedAppRegistration"
         ],
-        "summary": "List managedAppRegistrations",
-        "description": "List properties and relationships of the managedAppRegistration objects.",
+        "summary": "List androidManagedAppRegistrations",
+        "description": "List properties and relationships of the androidManagedAppRegistration objects.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappregistration-list?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-androidmanagedappregistration-list?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.ListManagedAppRegistrations",
         "parameters": [
@@ -2348,11 +2348,11 @@
         "tags": [
           "deviceAppManagement.managedAppRegistration"
         ],
-        "summary": "Get iosManagedAppRegistration",
-        "description": "Read properties and relationships of the iosManagedAppRegistration object.",
+        "summary": "Get androidManagedAppRegistration",
+        "description": "Read properties and relationships of the androidManagedAppRegistration object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-iosmanagedappregistration-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-androidmanagedappregistration-get?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.GetManagedAppRegistrations",
         "parameters": [
@@ -2609,7 +2609,7 @@
         "description": "Not yet documented",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappprotection-targetapps?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-targetedmanagedappprotection-targetapps?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.managedAppRegistrations.managedAppRegistration.appliedPolicies.managedAppPolicy.targetApps",
         "requestBody": {
@@ -2900,7 +2900,7 @@
         "description": "Not yet documented",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappprotection-targetapps?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-targetedmanagedappprotection-targetapps?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.managedAppRegistrations.managedAppRegistration.intendedPolicies.managedAppPolicy.targetApps",
         "requestBody": {
@@ -3335,11 +3335,11 @@
         "tags": [
           "deviceAppManagement.managedAppStatus"
         ],
-        "summary": "List managedAppStatuses",
-        "description": "List properties and relationships of the managedAppStatus objects.",
+        "summary": "List managedAppStatusRaws",
+        "description": "List properties and relationships of the managedAppStatusRaw objects.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappstatus-list?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappstatusraw-list?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.ListManagedAppStatuses",
         "parameters": [
@@ -3424,11 +3424,11 @@
         "tags": [
           "deviceAppManagement.managedAppStatus"
         ],
-        "summary": "Get managedAppStatus",
-        "description": "Read properties and relationships of the managedAppStatus object.",
+        "summary": "Get managedAppStatusRaw",
+        "description": "Read properties and relationships of the managedAppStatusRaw object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappstatus-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-managedappstatusraw-get?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.GetManagedAppStatuses",
         "parameters": [
@@ -3795,11 +3795,11 @@
         "tags": [
           "deviceAppManagement.managedEBook"
         ],
-        "summary": "Get iosVppEBookAssignment",
-        "description": "Read properties and relationships of the iosVppEBookAssignment object.",
+        "summary": "Get managedEBookAssignment",
+        "description": "Read properties and relationships of the managedEBookAssignment object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-books-iosvppebookassignment-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-books-managedebookassignment-get?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.managedEBooks.GetAssignments",
         "parameters": [
@@ -5794,11 +5794,11 @@
         "tags": [
           "deviceAppManagement.managedDeviceMobileAppConfiguration"
         ],
-        "summary": "List iosMobileAppConfigurations",
-        "description": "List properties and relationships of the iosMobileAppConfiguration objects.",
+        "summary": "List managedDeviceMobileAppConfigurations",
+        "description": "List properties and relationships of the managedDeviceMobileAppConfiguration objects.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-apps-iosmobileappconfiguration-list?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-apps-manageddevicemobileappconfiguration-list?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.ListMobileAppConfigurations",
         "parameters": [
@@ -5883,11 +5883,11 @@
         "tags": [
           "deviceAppManagement.managedDeviceMobileAppConfiguration"
         ],
-        "summary": "Get iosMobileAppConfiguration",
-        "description": "Read properties and relationships of the iosMobileAppConfiguration object.",
+        "summary": "Get managedDeviceMobileAppConfiguration",
+        "description": "Read properties and relationships of the managedDeviceMobileAppConfiguration object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-apps-iosmobileappconfiguration-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-apps-manageddevicemobileappconfiguration-get?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.GetMobileAppConfigurations",
         "parameters": [
@@ -6918,11 +6918,11 @@
         "tags": [
           "deviceAppManagement.mobileApp"
         ],
-        "summary": "Get windowsWebApp",
-        "description": "Read properties and relationships of the windowsWebApp object.",
+        "summary": "Get iosLobApp",
+        "description": "Read properties and relationships of the iosLobApp object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-apps-windowswebapp-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-apps-ioslobapp-get?view=graph-rest-1.0"
         },
         "operationId": "deviceAppManagement.GetMobileApps",
         "parameters": [
@@ -32078,6 +32078,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",

@@ -916,11 +916,11 @@
         "tags": [
           "tenantRelationships.multiTenantOrganization"
         ],
-        "summary": "Update multiTenantOrganization",
-        "description": "Update the properties of a multitenant organization.",
+        "summary": "Create multiTenantOrganization",
+        "description": "Create a new multitenant organization. By default, the creator tenant becomes an owner tenant upon successful creation. Only owner tenants can manage a multitenant organization.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/multitenantorganization-update?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/tenantrelationship-put-multitenantorganization?view=graph-rest-1.0"
         },
         "operationId": "tenantRelationships.UpdateMultiTenantOrganization",
         "requestBody": {
@@ -2642,6 +2642,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",

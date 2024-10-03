@@ -17,7 +17,6 @@ partial class Helper
                  };
 
             var filteredDoc = OpenApiFilterService.CreateFilteredDocument(openApiDocument, predicate);
-            var sanitizedDoc = RemoveDuplicateParameters(filteredDoc);
 
             // Write the OpenApiDocument to a file
             var apiName = group.Key.Replace('.', '-');
@@ -26,7 +25,7 @@ partial class Helper
             using var fileStream = new FileStream(outputDirectoryFile, FileMode.Create, FileAccess.Write);
             using var streamWriter = new StreamWriter(fileStream);
             var jsonWriter = new OpenApiJsonWriter(streamWriter);
-            sanitizedDoc.SerializeAsV3(jsonWriter);
+            filteredDoc.SerializeAsV3(jsonWriter);
 
             await streamWriter.FlushAsync();
 

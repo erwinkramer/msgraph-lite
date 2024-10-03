@@ -110,10 +110,10 @@
           "organization.organization"
         ],
         "summary": "Get organization",
-        "description": "Read properties and relationships of the organization object.",
+        "description": "Get the properties and relationships of the currently authenticated organization. Since the organization resource supports extensions, you can also use the GET operation to get custom properties and extension data in an organization instance.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-onboarding-organization-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/organization-get?view=graph-rest-1.0"
         },
         "operationId": "organization.organization.GetOrganization",
         "parameters": [
@@ -929,11 +929,11 @@
         "tags": [
           "organization.organizationalBranding"
         ],
-        "summary": "Get organizationalBrandingLocalization",
-        "description": "Read the properties and relationships of an organizationalBrandingLocalization object. To retrieve a localization branding object, specify the value of id in the URL.",
+        "summary": "Get organizationalBranding",
+        "description": "Retrieve the default organizational branding object, if the Accept-Language header is set to 0 or default. If no default organizational branding object exists, this method returns a 404 Not Found error. If the Accept-Language header is set to an existing locale identified by the value of its id, this method retrieves the branding for the specified locale. This method retrieves only non-Stream properties, for example, usernameHintText and signInPageText. To retrieve Stream types of the default branding, for example, bannerLogo and backgroundImage, use the GET organizationalBrandingLocalization method.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/organizationalbrandinglocalization-get?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/organizationalbranding-get?view=graph-rest-1.0"
         },
         "operationId": "organization.branding.GetLocalizationsBannerLogo",
         "responses": {
@@ -4490,6 +4490,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",

@@ -24,7 +24,7 @@
         "description": "Create a new user object.",
         "externalDocs": {
           "description": "Find more info here",
-          "url": "https://learn.microsoft.com/graph/api/intune-onboarding-user-create?view=graph-rest-1.0"
+          "url": "https://learn.microsoft.com/graph/api/intune-mam-user-create?view=graph-rest-1.0"
         },
         "operationId": "users.user.CreateUser",
         "requestBody": {
@@ -14328,24 +14328,6 @@
           "url": "https://learn.microsoft.com/graph/api/directory-deleteditems-restore?view=graph-rest-1.0"
         },
         "operationId": "users.user.restore",
-        "requestBody": {
-          "description": "Action parameters",
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "autoReconcileProxyConflict": {
-                    "type": "boolean",
-                    "default": false,
-                    "nullable": true
-                  }
-                }
-              }
-            }
-          },
-          "required": true
-        },
         "responses": {
           "2XX": {
             "description": "Success",
@@ -17522,7 +17504,7 @@
                     "nullable": true
                   }
                 ],
-                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values)."
+                "description": "Specifies the password profile for the user. The profile contains the user's password. This property is required when a user is created. The password in the profile must satisfy minimum requirements as specified by the passwordPolicies property. By default, a strong password is required. Returned only on $select. Supports $filter (eq, ne, not, in, and eq on null values). To update this property:  In delegated access, the calling app must be assigned the Directory.AccessAsUser.All delegated permission on behalf of the signed-in user.  In application-only access, the calling app must be assigned the User.ReadWrite.All (least privilege) or Directory.ReadWrite.All (higher privilege) application permission and at least the User Administrator Microsoft Entra role."
               },
               "pastProjects": {
                 "type": "array",
@@ -18153,7 +18135,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.user"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra user account."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.user"
@@ -24246,6 +24229,7 @@
             "#microsoft.graph.security.ediscoveryHoldOperation": "#/components/schemas/microsoft.graph.security.ediscoveryHoldOperation",
             "#microsoft.graph.security.ediscoveryIndexOperation": "#/components/schemas/microsoft.graph.security.ediscoveryIndexOperation",
             "#microsoft.graph.security.ediscoveryPurgeDataOperation": "#/components/schemas/microsoft.graph.security.ediscoveryPurgeDataOperation",
+            "#microsoft.graph.security.ediscoverySearchExportOperation": "#/components/schemas/microsoft.graph.security.ediscoverySearchExportOperation",
             "#microsoft.graph.security.ediscoveryTagOperation": "#/components/schemas/microsoft.graph.security.ediscoveryTagOperation",
             "#microsoft.graph.security.casesRoot": "#/components/schemas/microsoft.graph.security.casesRoot",
             "#microsoft.graph.security.dataSet": "#/components/schemas/microsoft.graph.security.dataSet",
@@ -25349,7 +25333,8 @@
               "@odata.type": {
                 "type": "string"
               }
-            }
+            },
+            "description": "The status of a long-running operation."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.richLongRunningOperation"
@@ -26836,6 +26821,7 @@
                 "type": "string"
               }
             },
+            "description": "The status of a long-running operation.",
             "discriminator": {
               "propertyName": "@odata.type",
               "mapping": {
@@ -29486,7 +29472,8 @@
                 "type": "string",
                 "default": "#microsoft.graph.group"
               }
-            }
+            },
+            "description": "Represents a Microsoft Entra group."
           }
         ],
         "x-ms-discriminator-value": "#microsoft.graph.group"
