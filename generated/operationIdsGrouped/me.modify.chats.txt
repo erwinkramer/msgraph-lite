@@ -6,6 +6,7 @@ me.chats.CreateMembers
 me.chats.UpdateMembers
 me.chats.DeleteMembers
 me.chats.chat.members.add
+me.chats.chat.members.remove
 me.chats.CreateMessages
 me.chats.UpdateMessages
 me.chats.DeleteMessages
@@ -30,9 +31,12 @@ me.chats.chat.messages.chatMessage.replies.chatMessage.setReaction
 me.chats.chat.messages.chatMessage.replies.chatMessage.softDelete
 me.chats.chat.messages.chatMessage.replies.chatMessage.undoSoftDelete
 me.chats.chat.messages.chatMessage.replies.chatMessage.unsetReaction
+me.chats.chat.messages.chatMessage.replies.delta
+me.chats.chat.messages.delta
 me.chats.chat.hideForUser
 me.chats.chat.markChatReadForUser
 me.chats.chat.markChatUnreadForUser
+me.chats.chat.removeAllAccessForUser
 me.chats.chat.sendActivityNotification
 me.chats.chat.unhideForUser
 me.chats.CreatePermissionGrants

@@ -45,7 +45,6 @@ admin.serviceAnnouncement.healthOverviews.issues.GetCount-fd80
 admin.serviceAnnouncement.healthOverviews.GetCount-51c2
 admin.serviceAnnouncement.ListIssues
 admin.serviceAnnouncement.GetIssues
-admin.serviceAnnouncement.issues.serviceHealthIssue.incidentReport
 admin.serviceAnnouncement.issues.GetCount-e140
 admin.serviceAnnouncement.ListMessages
 admin.serviceAnnouncement.GetMessages

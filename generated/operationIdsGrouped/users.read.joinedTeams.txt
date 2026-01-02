@@ -3,6 +3,9 @@ users.joinedTeams.GetAllChannels
 users.joinedTeams.allChannels.GetCount-33d5
 users.joinedTeams.ListChannels
 users.joinedTeams.GetChannels
+users.joinedTeams.channels.ListAllMembers
+users.joinedTeams.channels.GetAllMembers
+users.joinedTeams.channels.allMembers.GetCount-12c2
 users.joinedTeams.channels.GetFilesFolder
 users.joinedTeams.channels.GetFilesFolderContent
 users.joinedTeams.channels.ListMembers
@@ -57,6 +60,9 @@ users.joinedTeams.permissionGrants.GetCount-70b8
 users.joinedTeams.GetPhoto
 users.joinedTeams.GetPhotoContent
 users.joinedTeams.GetPrimaryChannel
+users.joinedTeams.primaryChannel.ListAllMembers
+users.joinedTeams.primaryChannel.GetAllMembers
+users.joinedTeams.primaryChannel.allMembers.GetCount-6630
 users.joinedTeams.primaryChannel.GetFilesFolder
 users.joinedTeams.primaryChannel.GetFilesFolderContent
 users.joinedTeams.primaryChannel.ListMembers
@@ -88,6 +94,9 @@ users.joinedTeams.primaryChannel.GetTabs
 users.joinedTeams.primaryChannel.tabs.GetTeamsApp
 users.joinedTeams.primaryChannel.tabs.GetCount-86f9
 users.joinedTeams.GetSchedule
+users.joinedTeams.schedule.ListDayNotes
+users.joinedTeams.schedule.GetDayNotes
+users.joinedTeams.schedule.dayNotes.GetCount-282c
 users.joinedTeams.schedule.ListOfferShiftRequests
 users.joinedTeams.schedule.GetOfferShiftRequests
 users.joinedTeams.schedule.offerShiftRequests.GetCount-b933
@@ -106,6 +115,9 @@ users.joinedTeams.schedule.shifts.GetCount-6a1a
 users.joinedTeams.schedule.ListSwapShiftsChangeRequests
 users.joinedTeams.schedule.GetSwapShiftsChangeRequests
 users.joinedTeams.schedule.swapShiftsChangeRequests.GetCount-b5f7
+users.joinedTeams.schedule.ListTimeCards
+users.joinedTeams.schedule.GetTimeCards
+users.joinedTeams.schedule.timeCards.GetCount-4f50
 users.joinedTeams.schedule.ListTimeOffReasons
 users.joinedTeams.schedule.GetTimeOffReasons
 users.joinedTeams.schedule.timeOffReasons.GetCount-9789

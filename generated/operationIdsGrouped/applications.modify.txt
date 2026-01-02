@@ -24,7 +24,7 @@ applications.application.unsetVerifiedPublisher
 applications.owners.DeleteRefDirectoryObject
 applications.CreateRefOwners
 applications.DeleteRefOwners
-applications.UpdateSynchronization
+applications.SetSynchronization
 applications.DeleteSynchronization
 applications.synchronization.CreateJobs
 applications.synchronization.UpdateJobs
@@ -44,10 +44,12 @@ applications.synchronization.jobs.schema.CreateDirectories
 applications.synchronization.jobs.schema.UpdateDirectories
 applications.synchronization.jobs.schema.DeleteDirectories
 applications.application.synchronization.jobs.synchronizationJob.schema.directories.directoryDefinition.discover
+applications.application.synchronization.jobs.synchronizationJob.schema.filterOperators
+applications.application.synchronization.jobs.synchronizationJob.schema.functions
 applications.application.synchronization.jobs.synchronizationJob.schema.parseExpression
 applications.application.synchronization.jobs.validateCredentials
 applications.application.synchronization.acquireAccessToken
-applications.synchronization.UpdateSecrets
+applications.synchronization.SetSecrets
 applications.synchronization.CreateTemplates
 applications.synchronization.UpdateTemplates
 applications.synchronization.DeleteTemplates
@@ -57,6 +59,8 @@ applications.synchronization.templates.schema.CreateDirectories
 applications.synchronization.templates.schema.UpdateDirectories
 applications.synchronization.templates.schema.DeleteDirectories
 applications.application.synchronization.templates.synchronizationTemplate.schema.directories.directoryDefinition.discover
+applications.application.synchronization.templates.synchronizationTemplate.schema.filterOperators
+applications.application.synchronization.templates.synchronizationTemplate.schema.functions
 applications.application.synchronization.templates.synchronizationTemplate.schema.parseExpression
 applications.tokenIssuancePolicies.DeleteRefTokenIssuancePolicy
 applications.CreateRefTokenIssuancePolicies
@@ -68,4 +72,5 @@ applications.application.UpdateApplicationByAppId
 applications.application.DeleteApplicationByAppId
 applications.application.UpdateApplicationByUniqueName
 applications.application.DeleteApplicationByUniqueName
+applications.delta
 applications.validateProperties

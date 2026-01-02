@@ -1,4 +1,3 @@
 oauth2PermissionGrants.oAuth2PermissionGrant.ListOAuth2PermissionGrant
 oauth2PermissionGrants.oAuth2PermissionGrant.GetOAuth2PermissionGrant
 oauth2PermissionGrants.GetCount-8287
-oauth2PermissionGrants.delta

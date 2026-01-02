@@ -40,7 +40,7 @@ Graph Lite has the ability to automatically import the whole sliced Graph API in
 
 ## Compile
 
-1. Install .NET 8
+1. Install .NET 10
 2. Replace the vars at [program.cs](./graph-lite-tooling/Program.cs) accordingly.
 3. Build and run [graph-lite-tooling](./graph-lite-tooling) with VSCode or any tool that supports `.csproj` files.
 

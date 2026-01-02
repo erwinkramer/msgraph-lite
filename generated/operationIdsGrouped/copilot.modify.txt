@@ -1,0 +1,15 @@
+copilot.copilotRoot.UpdateCopilotRoot
+copilot.UpdateAdmin
+copilot.DeleteAdmin
+copilot.admin.UpdateSettings
+copilot.admin.DeleteSettings
+copilot.admin.settings.UpdateLimitedMode
+copilot.admin.settings.DeleteLimitedMode
+copilot.UpdateInteractionHistory
+copilot.DeleteInteractionHistory
+copilot.retrieval
+copilot.CreateUsers
+copilot.UpdateUsers
+copilot.DeleteUsers
+copilot.users.UpdateInteractionHistory
+copilot.users.DeleteInteractionHistory

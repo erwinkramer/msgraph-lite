@@ -29,6 +29,5 @@ organization.organization.checkMemberObjects
 organization.organization.getMemberGroups
 organization.organization.getMemberObjects
 organization.GetCount-9453
-organization.delta
 organization.getAvailableExtensionProperties
 organization.getByIds

@@ -23,6 +23,7 @@ contacts.orgContact.checkMemberGroups
 contacts.orgContact.checkMemberObjects
 contacts.orgContact.getMemberGroups
 contacts.orgContact.getMemberObjects
+contacts.GetOnPremisesSyncBehavior
 contacts.ListServiceProvisioningErrors
 contacts.ServiceProvisioningErrors.GetCount-33c2
 contacts.ListTransitiveMemberOf
@@ -35,6 +36,5 @@ contacts.TransitiveMemberOf.GetCount.AsAdministrativeUnit-d6cb
 contacts.ListTransitiveMemberOf.AsGroup
 contacts.TransitiveMemberOf.GetCount.AsGroup-e1a5
 contacts.GetCount-60f9
-contacts.delta
 contacts.getAvailableExtensionProperties
 contacts.getByIds

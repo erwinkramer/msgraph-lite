@@ -12,8 +12,3 @@ users.calendarGroups.calendars.events.DeleteAttachments
 users.calendarGroups.calendars.events.CreateExtensions
 users.calendarGroups.calendars.events.UpdateExtensions
 users.calendarGroups.calendars.events.DeleteExtensions
-users.calendarGroups.calendars.events.instances.CreateAttachments
-users.calendarGroups.calendars.events.instances.DeleteAttachments
-users.calendarGroups.calendars.events.instances.CreateExtensions
-users.calendarGroups.calendars.events.instances.UpdateExtensions
-users.calendarGroups.calendars.events.instances.DeleteExtensions

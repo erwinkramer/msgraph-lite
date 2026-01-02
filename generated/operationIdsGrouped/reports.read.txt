@@ -1,9 +1,5 @@
 reports.reportRoot.GetReportRoot
 reports.GetAuthenticationMethods
-reports.authenticationMethods.usersRegisteredByFeature-07f2
-reports.authenticationMethods.usersRegisteredByFeature-b345
-reports.authenticationMethods.usersRegisteredByMethod-d25d
-reports.authenticationMethods.usersRegisteredByMethod-fb94
 reports.authenticationMethods.ListUserRegistrationDetails
 reports.authenticationMethods.GetUserRegistrationDetails
 reports.authenticationMethods.userRegistrationDetails.GetCount-0ab7
@@ -13,8 +9,6 @@ reports.dailyPrintUsageByPrinter.GetCount-73e4
 reports.ListDailyPrintUsageByUser
 reports.GetDailyPrintUsageByUser
 reports.dailyPrintUsageByUser.GetCount-e839
-reports.deviceConfigurationDeviceActivity
-reports.deviceConfigurationUserActivity
 reports.getEmailActivityCounts
 reports.getEmailActivityUserCounts
 reports.getEmailActivityUserDetail-4d91
@@ -111,10 +105,6 @@ reports.getYammerGroupsActivityCounts
 reports.getYammerGroupsActivityDetail-9ea3
 reports.getYammerGroupsActivityDetail-99d3
 reports.getYammerGroupsActivityGroupCounts
-reports.managedDeviceEnrollmentFailureDetails-8191
-reports.managedDeviceEnrollmentFailureDetails-aa46
-reports.managedDeviceEnrollmentTopFailures-9ce7
-reports.managedDeviceEnrollmentTopFailures-2157
 reports.ListMonthlyPrintUsageByPrinter
 reports.GetMonthlyPrintUsageByPrinter
 reports.monthlyPrintUsageByPrinter.GetCount-18cc
@@ -131,6 +121,7 @@ reports.partners.billing.GetOperations
 reports.partners.billing.operations.GetCount-9331
 reports.partners.billing.GetReconciliation
 reports.partners.billing.reconciliation.GetBilled
+reports.partners.billing.reconciliation.GetUnbilled
 reports.partners.billing.GetUsage
 reports.partners.billing.usage.GetBilled
 reports.partners.billing.usage.GetUnbilled

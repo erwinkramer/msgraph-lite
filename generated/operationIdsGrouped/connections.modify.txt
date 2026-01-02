@@ -8,7 +8,7 @@ connections.groups.CreateMembers
 connections.groups.UpdateMembers
 connections.groups.DeleteMembers
 connections.CreateItems
-connections.UpdateItems
+connections.SetItems
 connections.DeleteItems
 connections.items.CreateActivities
 connections.items.UpdateActivities

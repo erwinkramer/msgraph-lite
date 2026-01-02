@@ -3,6 +3,9 @@ groups.team.GetAllChannels
 groups.team.allChannels.GetCount-4fa6
 groups.team.ListChannels
 groups.team.GetChannels
+groups.team.channels.ListAllMembers
+groups.team.channels.GetAllMembers
+groups.team.channels.allMembers.GetCount-767d
 groups.team.channels.GetFilesFolder
 groups.team.channels.GetFilesFolderContent
 groups.team.channels.ListMembers
@@ -57,6 +60,9 @@ groups.team.permissionGrants.GetCount-5668
 groups.team.GetPhoto
 groups.team.GetPhotoContent
 groups.team.GetPrimaryChannel
+groups.team.primaryChannel.ListAllMembers
+groups.team.primaryChannel.GetAllMembers
+groups.team.primaryChannel.allMembers.GetCount-1592
 groups.team.primaryChannel.GetFilesFolder
 groups.team.primaryChannel.GetFilesFolderContent
 groups.team.primaryChannel.ListMembers
@@ -88,6 +94,9 @@ groups.team.primaryChannel.GetTabs
 groups.team.primaryChannel.tabs.GetTeamsApp
 groups.team.primaryChannel.tabs.GetCount-23e6
 groups.team.GetSchedule
+groups.team.schedule.ListDayNotes
+groups.team.schedule.GetDayNotes
+groups.team.schedule.dayNotes.GetCount-46ba
 groups.team.schedule.ListOfferShiftRequests
 groups.team.schedule.GetOfferShiftRequests
 groups.team.schedule.offerShiftRequests.GetCount-a576
@@ -106,6 +115,9 @@ groups.team.schedule.shifts.GetCount-b3cf
 groups.team.schedule.ListSwapShiftsChangeRequests
 groups.team.schedule.GetSwapShiftsChangeRequests
 groups.team.schedule.swapShiftsChangeRequests.GetCount-61ae
+groups.team.schedule.ListTimeCards
+groups.team.schedule.GetTimeCards
+groups.team.schedule.timeCards.GetCount-67e7
 groups.team.schedule.ListTimeOffReasons
 groups.team.schedule.GetTimeOffReasons
 groups.team.schedule.timeOffReasons.GetCount-bf68

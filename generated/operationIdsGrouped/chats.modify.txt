@@ -9,6 +9,7 @@ chats.CreateMembers
 chats.UpdateMembers
 chats.DeleteMembers
 chats.chat.members.add
+chats.chat.members.remove
 chats.CreateMessages
 chats.UpdateMessages
 chats.DeleteMessages
@@ -33,9 +34,12 @@ chats.chat.messages.chatMessage.replies.chatMessage.setReaction
 chats.chat.messages.chatMessage.replies.chatMessage.softDelete
 chats.chat.messages.chatMessage.replies.chatMessage.undoSoftDelete
 chats.chat.messages.chatMessage.replies.chatMessage.unsetReaction
+chats.chat.messages.chatMessage.replies.delta
+chats.chat.messages.delta
 chats.chat.hideForUser
 chats.chat.markChatReadForUser
 chats.chat.markChatUnreadForUser
+chats.chat.removeAllAccessForUser
 chats.chat.sendActivityNotification
 chats.chat.unhideForUser
 chats.CreatePermissionGrants

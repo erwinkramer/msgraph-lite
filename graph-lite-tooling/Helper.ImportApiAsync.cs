@@ -1,8 +1,8 @@
+using Azure;
 using Azure.Identity;
-using Azure.Core;
-using Microsoft.Azure.Management.ApiManagement;
-using Microsoft.Azure.Management.ApiManagement.Models;
-using Microsoft.Rest;
+using Azure.ResourceManager;
+using Azure.ResourceManager.ApiManagement;
+using Azure.ResourceManager.ApiManagement.Models;
 
 partial class Helper
 {
@@ -15,21 +15,29 @@ partial class Helper
         }
 
         // Authenticate interactively using Azure Identity
-        var serviceClientCredentials = await GetServiceClientCredentialsAsync(tenantId);
+        var credential = new DefaultAzureCredential(new DefaultAzureCredentialOptions
+        {
+            TenantId = tenantId
+        });
 
-        // Create the ApiManagementClient
-        using var client = new ApiManagementClient(serviceClientCredentials) { SubscriptionId = subscriptionId };
+        // Create the ARM client for Api Management operations
+        var armClient = new ArmClient(credential, subscriptionId);
+        var serviceResourceId = ApiManagementServiceResource.CreateResourceIdentifier(subscriptionId, resourceGroupName, serviceName);
+        var apiManagementService = armClient.GetApiManagementServiceResource(serviceResourceId);
+        var apiCollection = apiManagementService.GetApis();
         var apiContent = File.ReadAllText(apiFilePath);
 
         try
         {
-            await client.Api.CreateOrUpdateAsync(resourceGroupName, serviceName, apiId, new ApiCreateOrUpdateParameter
+            var apiParameters = new ApiCreateOrUpdateContent
             {
-                Format = ContentFormat.Openapijson,
-                Value = apiContent,
-                Path = apiId,
                 DisplayName = $"Graph L - {apiId}",
-            });
+                Path = apiId,
+                Format = ContentFormat.OpenApiJson,
+                Value = apiContent
+            };
+
+            await apiCollection.CreateOrUpdateAsync(WaitUntil.Completed, apiId, apiParameters);
 
             Console.WriteLine($"Successfully imported API '{apiId}' from file '{apiFilePath}'.");
         }
@@ -37,20 +45,5 @@ partial class Helper
         {
             Console.WriteLine($"Failed importing API '{apiId}' from file '{apiFilePath}'. Exception: {e.Message}.");
         }
-    }
-
-    private static async Task<ServiceClientCredentials> GetServiceClientCredentialsAsync(string tenantId)
-    {
-
-        var tokenCredential = new DefaultAzureCredential(new DefaultAzureCredentialOptions
-        {
-            TenantId = tenantId
-        });
-
-        // Get the access token for Azure Management
-        var tokenRequestContext = new TokenRequestContext(new[] { "https://management.azure.com/.default" });
-        var token = await tokenCredential.GetTokenAsync(tokenRequestContext);
-
-        return new TokenCredentials(token.Token);
     }
 }

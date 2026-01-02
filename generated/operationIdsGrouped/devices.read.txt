@@ -57,6 +57,5 @@ devices.ListTransitiveMemberOf.AsGroup
 devices.TransitiveMemberOf.GetCount.AsGroup-bca9
 devices.device.GetDeviceByDeviceId
 devices.GetCount-3489
-devices.delta
 devices.getAvailableExtensionProperties
 devices.getByIds

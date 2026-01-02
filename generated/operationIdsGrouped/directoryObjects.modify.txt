@@ -2,4 +2,5 @@ directoryObjects.directoryObject.CreateDirectoryObject
 directoryObjects.directoryObject.UpdateDirectoryObject
 directoryObjects.directoryObject.DeleteDirectoryObject
 directoryObjects.directoryObject.restore
+directoryObjects.delta
 directoryObjects.validateProperties

@@ -24,9 +24,7 @@ chats.messages.replies.GetHostedContents
 chats.messages.replies.GetHostedContentsContent
 chats.messages.replies.hostedContents.GetCount-ccd3
 chats.messages.replies.GetCount-10ad
-chats.chat.messages.chatMessage.replies.delta
 chats.messages.GetCount-3dde
-chats.chat.messages.delta
 chats.ListPermissionGrants
 chats.GetPermissionGrants
 chats.permissionGrants.GetCount-7597

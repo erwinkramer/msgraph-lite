@@ -30,6 +30,5 @@ directoryRoles.GetScopedMembers
 directoryRoles.scopedMembers.GetCount-b2b2
 directoryRoles.directoryRole.GetDirectoryRoleByRoleTemplateId
 directoryRoles.GetCount-ad68
-directoryRoles.delta
 directoryRoles.getAvailableExtensionProperties
 directoryRoles.getByIds

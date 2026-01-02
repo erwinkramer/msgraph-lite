@@ -1,6 +1,5 @@
-using Microsoft.OpenApi.Models;
-using Microsoft.OpenApi.Services;
-using Microsoft.OpenApi.Writers;
+using System.Linq;
+using Microsoft.OpenApi;
 
 partial class Helper
 {
@@ -11,12 +10,13 @@ partial class Helper
         foreach (var group in groupedOperationIds)
         {
 
-            Func<string, OperationType?, OpenApiOperation, bool> predicate = (operationId, operationType, operation) =>
+            Func<string, HttpMethod?, OpenApiOperation, bool> predicate = (operationId, httpMethod, operation) =>
                  {
                      return group.Value.Contains(operation.OperationId); //funny enough, operationId is not the same as operation.OperationId
                  };
 
             var filteredDoc = OpenApiFilterService.CreateFilteredDocument(openApiDocument, predicate);
+            //RemoveUnusedSchemas(filteredDoc);
 
             // Write the OpenApiDocument to a file
             var apiName = group.Key.Replace('.', '-');
@@ -24,7 +24,7 @@ partial class Helper
             var outputDirectoryFile = Path.Combine(outputDirectory, fileName);
             using var fileStream = new FileStream(outputDirectoryFile, FileMode.Create, FileAccess.Write);
             using var streamWriter = new StreamWriter(fileStream);
-            var jsonWriter = new OpenApiJsonWriter(streamWriter);
+            var jsonWriter = new OpenApiJsonWriter(streamWriter, new OpenApiJsonWriterSettings() { InlineExternalReferences = true, Terse = true });
             filteredDoc.SerializeAsV3(jsonWriter);
 
             await streamWriter.FlushAsync();

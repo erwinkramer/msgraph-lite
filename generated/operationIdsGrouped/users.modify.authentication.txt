@@ -12,6 +12,7 @@ users.authentication.CreatePasswordMethods
 users.authentication.CreatePhoneMethods
 users.authentication.UpdatePhoneMethods
 users.authentication.DeletePhoneMethods
+users.authentication.DeletePlatformCredentialMethods
 users.authentication.DeleteSoftwareOathMethods
 users.authentication.CreateTemporaryAccessPassMethods
 users.authentication.DeleteTemporaryAccessPassMethods

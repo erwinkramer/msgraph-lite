@@ -22,6 +22,7 @@ sites.contentTypes.UpdateColumns
 sites.contentTypes.DeleteColumns
 sites.site.contentTypes.contentType.associateWithHubSites
 sites.site.contentTypes.contentType.copyToDefaultContentLocation
+sites.site.contentTypes.contentType.isPublished
 sites.site.contentTypes.contentType.publish
 sites.site.contentTypes.contentType.unpublish
 sites.site.contentTypes.addCopy
@@ -330,4 +331,5 @@ sites.termStores.sets.terms.CreateRelations
 sites.termStores.sets.terms.UpdateRelations
 sites.termStores.sets.terms.DeleteRelations
 sites.add
+sites.delta
 sites.remove

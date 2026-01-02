@@ -1,0 +1,12 @@
+copilot.copilotRoot.GetCopilotRoot
+copilot.GetAdmin
+copilot.admin.GetSettings
+copilot.admin.settings.GetLimitedMode
+copilot.GetInteractionHistory
+copilot.interactionHistory.getAllEnterpriseInteractions
+copilot.GetReports
+copilot.ListUsers
+copilot.GetUsers
+copilot.users.GetInteractionHistory
+copilot.users.aiUser.interactionHistory.getAllEnterpriseInteractions
+copilot.users.GetCount-2ed5

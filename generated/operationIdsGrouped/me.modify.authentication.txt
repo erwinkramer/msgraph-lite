@@ -15,6 +15,7 @@ me.authentication.UpdatePhoneMethods
 me.authentication.DeletePhoneMethods
 me.authentication.phoneMethods.phoneAuthenticationMethod.disableSmsSignIn
 me.authentication.phoneMethods.phoneAuthenticationMethod.enableSmsSignIn
+me.authentication.DeletePlatformCredentialMethods
 me.authentication.DeleteSoftwareOathMethods
 me.authentication.CreateTemporaryAccessPassMethods
 me.authentication.DeleteTemporaryAccessPassMethods

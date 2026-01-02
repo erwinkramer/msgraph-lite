@@ -43,8 +43,6 @@ applications.synchronization.jobs.GetSchema
 applications.synchronization.jobs.schema.ListDirectories
 applications.synchronization.jobs.schema.GetDirectories
 applications.synchronization.jobs.schema.directories.GetCount-03bf
-applications.application.synchronization.jobs.synchronizationJob.schema.filterOperators
-applications.application.synchronization.jobs.synchronizationJob.schema.functions
 applications.synchronization.jobs.GetCount-30ed
 applications.synchronization.Secrets.GetCount-26f1
 applications.synchronization.ListTemplates
@@ -53,8 +51,6 @@ applications.synchronization.templates.GetSchema
 applications.synchronization.templates.schema.ListDirectories
 applications.synchronization.templates.schema.GetDirectories
 applications.synchronization.templates.schema.directories.GetCount-27bc
-applications.application.synchronization.templates.synchronizationTemplate.schema.filterOperators
-applications.application.synchronization.templates.synchronizationTemplate.schema.functions
 applications.synchronization.templates.GetCount-738a
 applications.ListTokenIssuancePolicies
 applications.tokenIssuancePolicies.GetCount-4be5
@@ -65,6 +61,5 @@ applications.ListRefTokenLifetimePolicies
 applications.application.GetApplicationByAppId
 applications.application.GetApplicationByUniqueName
 applications.GetCount-8398
-applications.delta
 applications.getAvailableExtensionProperties
 applications.getByIds

@@ -9,8 +9,3 @@ users.calendars.events.DeleteAttachments
 users.calendars.events.CreateExtensions
 users.calendars.events.UpdateExtensions
 users.calendars.events.DeleteExtensions
-users.calendars.events.instances.CreateAttachments
-users.calendars.events.instances.DeleteAttachments
-users.calendars.events.instances.CreateExtensions
-users.calendars.events.instances.UpdateExtensions
-users.calendars.events.instances.DeleteExtensions

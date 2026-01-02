@@ -8,3 +8,6 @@ auditLogs.DeleteProvisioning
 auditLogs.CreateSignIns
 auditLogs.UpdateSignIns
 auditLogs.DeleteSignIns
+auditLogs.signIns.confirmCompromised
+auditLogs.signIns.confirmSafe
+auditLogs.signIns.dismiss

@@ -1,6 +1,9 @@
 users.joinedTeams.CreateChannels
 users.joinedTeams.UpdateChannels
 users.joinedTeams.DeleteChannels
+users.joinedTeams.channels.CreateAllMembers
+users.joinedTeams.channels.UpdateAllMembers
+users.joinedTeams.channels.DeleteAllMembers
 users.joinedTeams.channels.UpdateFilesFolderContent
 users.joinedTeams.channels.DeleteFilesFolderContent
 users.joinedTeams.channels.CreateMembers
@@ -45,6 +48,9 @@ users.joinedTeams.UpdatePhotoContent
 users.joinedTeams.DeletePhotoContent
 users.joinedTeams.UpdatePrimaryChannel
 users.joinedTeams.DeletePrimaryChannel
+users.joinedTeams.primaryChannel.CreateAllMembers
+users.joinedTeams.primaryChannel.UpdateAllMembers
+users.joinedTeams.primaryChannel.DeleteAllMembers
 users.joinedTeams.primaryChannel.UpdateFilesFolderContent
 users.joinedTeams.primaryChannel.DeleteFilesFolderContent
 users.joinedTeams.primaryChannel.CreateMembers
@@ -72,8 +78,11 @@ users.joinedTeams.primaryChannel.DeleteSharedWithTeams
 users.joinedTeams.primaryChannel.CreateTabs
 users.joinedTeams.primaryChannel.UpdateTabs
 users.joinedTeams.primaryChannel.DeleteTabs
-users.joinedTeams.UpdateSchedule
+users.joinedTeams.SetSchedule
 users.joinedTeams.DeleteSchedule
+users.joinedTeams.schedule.CreateDayNotes
+users.joinedTeams.schedule.UpdateDayNotes
+users.joinedTeams.schedule.DeleteDayNotes
 users.joinedTeams.schedule.CreateOfferShiftRequests
 users.joinedTeams.schedule.UpdateOfferShiftRequests
 users.joinedTeams.schedule.DeleteOfferShiftRequests
@@ -92,6 +101,9 @@ users.joinedTeams.schedule.DeleteShifts
 users.joinedTeams.schedule.CreateSwapShiftsChangeRequests
 users.joinedTeams.schedule.UpdateSwapShiftsChangeRequests
 users.joinedTeams.schedule.DeleteSwapShiftsChangeRequests
+users.joinedTeams.schedule.CreateTimeCards
+users.joinedTeams.schedule.UpdateTimeCards
+users.joinedTeams.schedule.DeleteTimeCards
 users.joinedTeams.schedule.CreateTimeOffReasons
 users.joinedTeams.schedule.UpdateTimeOffReasons
 users.joinedTeams.schedule.DeleteTimeOffReasons

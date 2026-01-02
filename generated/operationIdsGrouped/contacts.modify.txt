@@ -1,6 +1,8 @@
-contacts.orgContact.CreateOrgContact
 contacts.orgContact.UpdateOrgContact
 contacts.orgContact.DeleteOrgContact
 contacts.orgContact.restore
 contacts.orgContact.retryServiceProvisioning
+contacts.UpdateOnPremisesSyncBehavior
+contacts.DeleteOnPremisesSyncBehavior
+contacts.delta
 contacts.validateProperties

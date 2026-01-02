@@ -9,13 +9,11 @@ me.onlineMeetings.ListRecordings
 me.onlineMeetings.GetRecordings
 me.onlineMeetings.GetRecordingsContent
 me.onlineMeetings.recordings.GetCount-b97c
-me.onlineMeetings.onlineMeeting.recordings.delta
 me.onlineMeetings.ListTranscripts
 me.onlineMeetings.GetTranscripts
 me.onlineMeetings.GetTranscriptsContent
 me.onlineMeetings.GetTranscriptsMetadataContent
 me.onlineMeetings.transcripts.GetCount-52e4
-me.onlineMeetings.onlineMeeting.transcripts.delta
 me.onlineMeetings.GetCount-1421
 me.onlineMeetings.createOrGet
 me.onlineMeetings.getAllRecordings

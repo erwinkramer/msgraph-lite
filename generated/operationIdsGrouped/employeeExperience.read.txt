@@ -9,6 +9,7 @@ employeeExperience.communities.GetOwners
 employeeExperience.communities.owners.GetMailboxSettings
 employeeExperience.communities.owners.ListServiceProvisioningErrors
 employeeExperience.communities.owners.ServiceProvisioningErrors.GetCount-6b17
+employeeExperience.communities.owners.GetByUserPrincipalName
 employeeExperience.communities.owners.GetCount-1d4e
 employeeExperience.communities.GetCount-6b75
 employeeExperience.ListEngagementAsyncOperations
@@ -29,3 +30,13 @@ employeeExperience.learningProviders.GetLearningCourseActivities
 employeeExperience.learningProviders.learningCourseActivities.GetByExternalcourseActivityId
 employeeExperience.learningProviders.learningCourseActivities.GetCount-abe5
 employeeExperience.learningProviders.GetCount-4d87
+employeeExperience.ListRoles
+employeeExperience.GetRoles
+employeeExperience.roles.ListMembers
+employeeExperience.roles.GetMembers
+employeeExperience.roles.members.GetUser
+employeeExperience.roles.members.user.GetMailboxSettings
+employeeExperience.roles.members.user.ListServiceProvisioningErrors
+employeeExperience.roles.members.user.ServiceProvisioningErrors.GetCount-84b9
+employeeExperience.roles.members.GetCount-732b
+employeeExperience.roles.GetCount-9f34

@@ -11,6 +11,7 @@ me.onlineMeetings.UpdateRecordings
 me.onlineMeetings.DeleteRecordings
 me.onlineMeetings.UpdateRecordingsContent
 me.onlineMeetings.DeleteRecordingsContent
+me.onlineMeetings.onlineMeeting.recordings.delta
 me.onlineMeetings.CreateTranscripts
 me.onlineMeetings.UpdateTranscripts
 me.onlineMeetings.DeleteTranscripts
@@ -18,3 +19,4 @@ me.onlineMeetings.UpdateTranscriptsContent
 me.onlineMeetings.DeleteTranscriptsContent
 me.onlineMeetings.UpdateTranscriptsMetadataContent
 me.onlineMeetings.DeleteTranscriptsMetadataContent
+me.onlineMeetings.onlineMeeting.transcripts.delta

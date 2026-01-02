@@ -10,6 +10,8 @@ me.messages.message.createReply
 me.messages.message.createReplyAll
 me.messages.message.forward
 me.messages.message.move
+me.messages.message.permanentDelete
 me.messages.message.reply
 me.messages.message.replyAll
 me.messages.message.send
+me.messages.delta

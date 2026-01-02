@@ -1,6 +1,9 @@
 groups.team.CreateChannels
 groups.team.UpdateChannels
 groups.team.DeleteChannels
+groups.team.channels.CreateAllMembers
+groups.team.channels.UpdateAllMembers
+groups.team.channels.DeleteAllMembers
 groups.team.channels.UpdateFilesFolderContent
 groups.team.channels.DeleteFilesFolderContent
 groups.team.channels.CreateMembers
@@ -45,6 +48,9 @@ groups.team.UpdatePhotoContent
 groups.team.DeletePhotoContent
 groups.team.UpdatePrimaryChannel
 groups.team.DeletePrimaryChannel
+groups.team.primaryChannel.CreateAllMembers
+groups.team.primaryChannel.UpdateAllMembers
+groups.team.primaryChannel.DeleteAllMembers
 groups.team.primaryChannel.UpdateFilesFolderContent
 groups.team.primaryChannel.DeleteFilesFolderContent
 groups.team.primaryChannel.CreateMembers
@@ -72,8 +78,11 @@ groups.team.primaryChannel.DeleteSharedWithTeams
 groups.team.primaryChannel.CreateTabs
 groups.team.primaryChannel.UpdateTabs
 groups.team.primaryChannel.DeleteTabs
-groups.team.UpdateSchedule
+groups.team.SetSchedule
 groups.team.DeleteSchedule
+groups.team.schedule.CreateDayNotes
+groups.team.schedule.UpdateDayNotes
+groups.team.schedule.DeleteDayNotes
 groups.team.schedule.CreateOfferShiftRequests
 groups.team.schedule.UpdateOfferShiftRequests
 groups.team.schedule.DeleteOfferShiftRequests
@@ -92,6 +101,9 @@ groups.team.schedule.DeleteShifts
 groups.team.schedule.CreateSwapShiftsChangeRequests
 groups.team.schedule.UpdateSwapShiftsChangeRequests
 groups.team.schedule.DeleteSwapShiftsChangeRequests
+groups.team.schedule.CreateTimeCards
+groups.team.schedule.UpdateTimeCards
+groups.team.schedule.DeleteTimeCards
 groups.team.schedule.CreateTimeOffReasons
 groups.team.schedule.UpdateTimeOffReasons
 groups.team.schedule.DeleteTimeOffReasons

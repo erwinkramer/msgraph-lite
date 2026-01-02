@@ -5,6 +5,9 @@ teams.GetAllChannels
 teams.allChannels.GetCount-f86a
 teams.ListChannels
 teams.GetChannels
+teams.channels.ListAllMembers
+teams.channels.GetAllMembers
+teams.channels.allMembers.GetCount-ea4d
 teams.channels.GetFilesFolder
 teams.channels.GetFilesFolderContent
 teams.channels.ListMembers
@@ -23,10 +26,7 @@ teams.channels.messages.replies.GetHostedContents
 teams.channels.messages.replies.GetHostedContentsContent
 teams.channels.messages.replies.hostedContents.GetCount-3bb6
 teams.channels.messages.replies.GetCount-bdfc
-teams.team.channels.channel.messages.chatMessage.replies.delta
 teams.channels.messages.GetCount-6767
-teams.team.channels.channel.messages.delta
-teams.team.channels.channel.doesUserHaveAccess
 teams.channels.ListSharedWithTeams
 teams.channels.GetSharedWithTeams
 teams.channels.sharedWithTeams.ListAllowedMembers
@@ -64,6 +64,9 @@ teams.permissionGrants.GetCount-34e2
 teams.GetPhoto
 teams.GetPhotoContent
 teams.GetPrimaryChannel
+teams.primaryChannel.ListAllMembers
+teams.primaryChannel.GetAllMembers
+teams.primaryChannel.allMembers.GetCount-4cdd
 teams.primaryChannel.GetFilesFolder
 teams.primaryChannel.GetFilesFolderContent
 teams.primaryChannel.ListMembers
@@ -82,10 +85,7 @@ teams.primaryChannel.messages.replies.GetHostedContents
 teams.primaryChannel.messages.replies.GetHostedContentsContent
 teams.primaryChannel.messages.replies.hostedContents.GetCount-1d3a
 teams.primaryChannel.messages.replies.GetCount-eb7a
-teams.team.primaryChannel.messages.chatMessage.replies.delta
 teams.primaryChannel.messages.GetCount-d90b
-teams.team.primaryChannel.messages.delta
-teams.team.primaryChannel.doesUserHaveAccess
 teams.primaryChannel.ListSharedWithTeams
 teams.primaryChannel.GetSharedWithTeams
 teams.primaryChannel.sharedWithTeams.ListAllowedMembers
@@ -98,6 +98,9 @@ teams.primaryChannel.GetTabs
 teams.primaryChannel.tabs.GetTeamsApp
 teams.primaryChannel.tabs.GetCount-8cf3
 teams.GetSchedule
+teams.schedule.ListDayNotes
+teams.schedule.GetDayNotes
+teams.schedule.dayNotes.GetCount-2cfa
 teams.schedule.ListOfferShiftRequests
 teams.schedule.GetOfferShiftRequests
 teams.schedule.offerShiftRequests.GetCount-9c52
@@ -116,6 +119,9 @@ teams.schedule.shifts.GetCount-97aa
 teams.schedule.ListSwapShiftsChangeRequests
 teams.schedule.GetSwapShiftsChangeRequests
 teams.schedule.swapShiftsChangeRequests.GetCount-9390
+teams.schedule.ListTimeCards
+teams.schedule.GetTimeCards
+teams.schedule.timeCards.GetCount-2ea4
 teams.schedule.ListTimeOffReasons
 teams.schedule.GetTimeOffReasons
 teams.schedule.timeOffReasons.GetCount-4024

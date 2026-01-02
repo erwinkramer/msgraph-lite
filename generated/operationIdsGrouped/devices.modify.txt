@@ -13,4 +13,5 @@ devices.CreateRefRegisteredUsers
 devices.DeleteRefRegisteredUsers
 devices.device.UpdateDeviceByDeviceId
 devices.device.DeleteDeviceByDeviceId
+devices.delta
 devices.validateProperties

@@ -5,6 +5,5 @@ contracts.contract.checkMemberObjects
 contracts.contract.getMemberGroups
 contracts.contract.getMemberObjects
 contracts.GetCount-8092
-contracts.delta
 contracts.getAvailableExtensionProperties
 contracts.getByIds

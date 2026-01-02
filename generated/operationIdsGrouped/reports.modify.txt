@@ -1,6 +1,10 @@
 reports.reportRoot.UpdateReportRoot
 reports.UpdateAuthenticationMethods
 reports.DeleteAuthenticationMethods
+reports.authenticationMethods.usersRegisteredByFeature-07f2
+reports.authenticationMethods.usersRegisteredByFeature-b345
+reports.authenticationMethods.usersRegisteredByMethod-d25d
+reports.authenticationMethods.usersRegisteredByMethod-fb94
 reports.authenticationMethods.CreateUserRegistrationDetails
 reports.authenticationMethods.UpdateUserRegistrationDetails
 reports.authenticationMethods.DeleteUserRegistrationDetails
@@ -10,6 +14,12 @@ reports.DeleteDailyPrintUsageByPrinter
 reports.CreateDailyPrintUsageByUser
 reports.UpdateDailyPrintUsageByUser
 reports.DeleteDailyPrintUsageByUser
+reports.deviceConfigurationDeviceActivity
+reports.deviceConfigurationUserActivity
+reports.managedDeviceEnrollmentFailureDetails-8191
+reports.managedDeviceEnrollmentFailureDetails-aa46
+reports.managedDeviceEnrollmentTopFailures-9ce7
+reports.managedDeviceEnrollmentTopFailures-2157
 reports.CreateMonthlyPrintUsageByPrinter
 reports.UpdateMonthlyPrintUsageByPrinter
 reports.DeleteMonthlyPrintUsageByPrinter
@@ -31,6 +41,9 @@ reports.partners.billing.DeleteReconciliation
 reports.partners.billing.reconciliation.UpdateBilled
 reports.partners.billing.reconciliation.DeleteBilled
 reports.partners.billing.reconciliation.billed.export
+reports.partners.billing.reconciliation.UpdateUnbilled
+reports.partners.billing.reconciliation.DeleteUnbilled
+reports.partners.billing.reconciliation.unbilled.export
 reports.partners.billing.UpdateUsage
 reports.partners.billing.DeleteUsage
 reports.partners.billing.usage.UpdateBilled

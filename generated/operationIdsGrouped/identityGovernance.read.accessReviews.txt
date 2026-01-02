@@ -1,7 +1,7 @@
 identityGovernance.accessReviews.ListDefinitions
 identityGovernance.accessReviews.CreateDefinitions
 identityGovernance.accessReviews.GetDefinitions
-identityGovernance.accessReviews.UpdateDefinitions
+identityGovernance.accessReviews.SetDefinitions
 identityGovernance.accessReviews.DeleteDefinitions
 identityGovernance.accessReviews.definitions.ListInstances
 identityGovernance.accessReviews.definitions.CreateInstances

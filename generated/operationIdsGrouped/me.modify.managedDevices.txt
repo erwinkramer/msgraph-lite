@@ -1,5 +1,7 @@
 me.managedDevices.UpdateDeviceCategory
 me.managedDevices.DeleteDeviceCategory
+me.managedDevices.UpdateRefDeviceCategory
+me.managedDevices.DeleteRefDeviceCategory
 me.managedDevices.CreateDeviceCompliancePolicyStates
 me.managedDevices.UpdateDeviceCompliancePolicyStates
 me.managedDevices.DeleteDeviceCompliancePolicyStates

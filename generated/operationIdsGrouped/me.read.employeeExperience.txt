@@ -1,0 +1,14 @@
+me.employeeExperience.ListAssignedRoles
+me.employeeExperience.GetAssignedRoles
+me.employeeExperience.assignedRoles.ListMembers
+me.employeeExperience.assignedRoles.GetMembers
+me.employeeExperience.assignedRoles.members.GetUser
+me.employeeExperience.assignedRoles.members.user.GetMailboxSettings
+me.employeeExperience.assignedRoles.members.user.ListServiceProvisioningErrors
+me.employeeExperience.assignedRoles.members.user.ServiceProvisioningErrors.GetCount-c0f3
+me.employeeExperience.assignedRoles.members.GetCount-8c2b
+me.employeeExperience.assignedRoles.GetCount-d9d7
+me.employeeExperience.ListLearningCourseActivities
+me.employeeExperience.GetLearningCourseActivities
+me.employeeExperience.learningCourseActivities.GetByExternalcourseActivityId
+me.employeeExperience.learningCourseActivities.GetCount-5af0

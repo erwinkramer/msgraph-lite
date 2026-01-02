@@ -1,6 +1,5 @@
 sites.site.ListSite
 sites.site.GetSite
-sites.site.contentTypes.contentType.isPublished
 sites.site.contentTypes.getCompatibleHubContentTypes
 sites.site.lists.list.contentTypes.contentType.associateWithHubSites
 sites.site.lists.list.contentTypes.contentType.copyToDefaultContentLocation

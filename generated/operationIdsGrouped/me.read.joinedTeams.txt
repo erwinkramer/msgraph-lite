@@ -3,6 +3,9 @@ me.joinedTeams.GetAllChannels
 me.joinedTeams.allChannels.GetCount-382e
 me.joinedTeams.ListChannels
 me.joinedTeams.GetChannels
+me.joinedTeams.channels.ListAllMembers
+me.joinedTeams.channels.GetAllMembers
+me.joinedTeams.channels.allMembers.GetCount-4afb
 me.joinedTeams.channels.GetFilesFolder
 me.joinedTeams.channels.GetFilesFolderContent
 me.joinedTeams.channels.ListMembers
@@ -21,10 +24,7 @@ me.joinedTeams.channels.messages.replies.GetHostedContents
 me.joinedTeams.channels.messages.replies.GetHostedContentsContent
 me.joinedTeams.channels.messages.replies.hostedContents.GetCount-ff44
 me.joinedTeams.channels.messages.replies.GetCount-2855
-me.joinedTeams.team.channels.channel.messages.chatMessage.replies.delta
 me.joinedTeams.channels.messages.GetCount-31de
-me.joinedTeams.team.channels.channel.messages.delta
-me.joinedTeams.team.channels.channel.doesUserHaveAccess
 me.joinedTeams.channels.ListSharedWithTeams
 me.joinedTeams.channels.GetSharedWithTeams
 me.joinedTeams.channels.sharedWithTeams.ListAllowedMembers
@@ -62,6 +62,9 @@ me.joinedTeams.permissionGrants.GetCount-a196
 me.joinedTeams.GetPhoto
 me.joinedTeams.GetPhotoContent
 me.joinedTeams.GetPrimaryChannel
+me.joinedTeams.primaryChannel.ListAllMembers
+me.joinedTeams.primaryChannel.GetAllMembers
+me.joinedTeams.primaryChannel.allMembers.GetCount-0b8e
 me.joinedTeams.primaryChannel.GetFilesFolder
 me.joinedTeams.primaryChannel.GetFilesFolderContent
 me.joinedTeams.primaryChannel.ListMembers
@@ -80,10 +83,7 @@ me.joinedTeams.primaryChannel.messages.replies.GetHostedContents
 me.joinedTeams.primaryChannel.messages.replies.GetHostedContentsContent
 me.joinedTeams.primaryChannel.messages.replies.hostedContents.GetCount-6077
 me.joinedTeams.primaryChannel.messages.replies.GetCount-1792
-me.joinedTeams.team.primaryChannel.messages.chatMessage.replies.delta
 me.joinedTeams.primaryChannel.messages.GetCount-dd6f
-me.joinedTeams.team.primaryChannel.messages.delta
-me.joinedTeams.team.primaryChannel.doesUserHaveAccess
 me.joinedTeams.primaryChannel.ListSharedWithTeams
 me.joinedTeams.primaryChannel.GetSharedWithTeams
 me.joinedTeams.primaryChannel.sharedWithTeams.ListAllowedMembers
@@ -96,6 +96,9 @@ me.joinedTeams.primaryChannel.GetTabs
 me.joinedTeams.primaryChannel.tabs.GetTeamsApp
 me.joinedTeams.primaryChannel.tabs.GetCount-f9aa
 me.joinedTeams.GetSchedule
+me.joinedTeams.schedule.ListDayNotes
+me.joinedTeams.schedule.GetDayNotes
+me.joinedTeams.schedule.dayNotes.GetCount-b5ac
 me.joinedTeams.schedule.ListOfferShiftRequests
 me.joinedTeams.schedule.GetOfferShiftRequests
 me.joinedTeams.schedule.offerShiftRequests.GetCount-7729
@@ -114,6 +117,9 @@ me.joinedTeams.schedule.shifts.GetCount-bd71
 me.joinedTeams.schedule.ListSwapShiftsChangeRequests
 me.joinedTeams.schedule.GetSwapShiftsChangeRequests
 me.joinedTeams.schedule.swapShiftsChangeRequests.GetCount-deaa
+me.joinedTeams.schedule.ListTimeCards
+me.joinedTeams.schedule.GetTimeCards
+me.joinedTeams.schedule.timeCards.GetCount-5c99
 me.joinedTeams.schedule.ListTimeOffReasons
 me.joinedTeams.schedule.GetTimeOffReasons
 me.joinedTeams.schedule.timeOffReasons.GetCount-632a

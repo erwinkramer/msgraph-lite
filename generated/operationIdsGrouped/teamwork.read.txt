@@ -6,6 +6,9 @@ teamwork.ListDeletedTeams
 teamwork.GetDeletedTeams
 teamwork.deletedTeams.ListChannels
 teamwork.deletedTeams.GetChannels
+teamwork.deletedTeams.channels.ListAllMembers
+teamwork.deletedTeams.channels.GetAllMembers
+teamwork.deletedTeams.channels.allMembers.GetCount-c12c
 teamwork.deletedTeams.channels.GetFilesFolder
 teamwork.deletedTeams.channels.GetFilesFolderContent
 teamwork.deletedTeams.channels.ListMembers
@@ -24,10 +27,7 @@ teamwork.deletedTeams.channels.messages.replies.GetHostedContents
 teamwork.deletedTeams.channels.messages.replies.GetHostedContentsContent
 teamwork.deletedTeams.channels.messages.replies.hostedContents.GetCount-a9d7
 teamwork.deletedTeams.channels.messages.replies.GetCount-32b1
-teamwork.deletedTeams.deletedTeam.channels.channel.messages.chatMessage.replies.delta
 teamwork.deletedTeams.channels.messages.GetCount-d80c
-teamwork.deletedTeams.deletedTeam.channels.channel.messages.delta
-teamwork.deletedTeams.deletedTeam.channels.channel.doesUserHaveAccess
 teamwork.deletedTeams.channels.ListSharedWithTeams
 teamwork.deletedTeams.channels.GetSharedWithTeams
 teamwork.deletedTeams.channels.sharedWithTeams.ListAllowedMembers

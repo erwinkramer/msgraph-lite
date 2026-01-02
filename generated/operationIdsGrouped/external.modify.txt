@@ -9,7 +9,7 @@ external.connections.groups.CreateMembers
 external.connections.groups.UpdateMembers
 external.connections.groups.DeleteMembers
 external.connections.CreateItems
-external.connections.UpdateItems
+external.connections.SetItems
 external.connections.DeleteItems
 external.connections.items.CreateActivities
 external.connections.items.UpdateActivities

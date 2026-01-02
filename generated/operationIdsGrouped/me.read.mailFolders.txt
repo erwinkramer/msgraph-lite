@@ -13,9 +13,7 @@ me.mailFolders.childFolders.messages.ListExtensions
 me.mailFolders.childFolders.messages.GetExtensions
 me.mailFolders.childFolders.messages.extensions.GetCount-cf94
 me.mailFolders.childFolders.messages.GetCount-56da
-me.mailFolders.mailFolder.childFolders.mailFolder.messages.delta
 me.mailFolders.childFolders.GetCount-25bc
-me.mailFolders.mailFolder.childFolders.delta
 me.mailFolders.ListMessageRules
 me.mailFolders.GetMessageRules
 me.mailFolders.messageRules.GetCount-3d24
@@ -29,6 +27,4 @@ me.mailFolders.messages.ListExtensions
 me.mailFolders.messages.GetExtensions
 me.mailFolders.messages.extensions.GetCount-8860
 me.mailFolders.messages.GetCount-363a
-me.mailFolders.mailFolder.messages.delta
 me.mailFolders.GetCount-c00e
-me.mailFolders.delta

@@ -10,4 +10,5 @@ directoryRoles.UpdateScopedMembers
 directoryRoles.DeleteScopedMembers
 directoryRoles.directoryRole.UpdateDirectoryRoleByRoleTemplateId
 directoryRoles.directoryRole.DeleteDirectoryRoleByRoleTemplateId
+directoryRoles.delta
 directoryRoles.validateProperties

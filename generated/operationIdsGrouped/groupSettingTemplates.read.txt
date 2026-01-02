@@ -5,6 +5,5 @@ groupSettingTemplates.groupSettingTemplate.checkMemberObjects
 groupSettingTemplates.groupSettingTemplate.getMemberGroups
 groupSettingTemplates.groupSettingTemplate.getMemberObjects
 groupSettingTemplates.GetCount-f6d8
-groupSettingTemplates.delta
 groupSettingTemplates.getAvailableExtensionProperties
 groupSettingTemplates.getByIds

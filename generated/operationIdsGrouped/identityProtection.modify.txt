@@ -17,6 +17,7 @@ identityProtection.riskyUsers.CreateHistory
 identityProtection.riskyUsers.UpdateHistory
 identityProtection.riskyUsers.DeleteHistory
 identityProtection.riskyUsers.confirmCompromised
+identityProtection.riskyUsers.confirmSafe
 identityProtection.riskyUsers.dismiss
 identityProtection.CreateServicePrincipalRiskDetections
 identityProtection.UpdateServicePrincipalRiskDetections

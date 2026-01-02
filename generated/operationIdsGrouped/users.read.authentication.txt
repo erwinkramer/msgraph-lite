@@ -20,6 +20,10 @@ users.authentication.passwordMethods.GetCount-ec55
 users.authentication.ListPhoneMethods
 users.authentication.GetPhoneMethods
 users.authentication.phoneMethods.GetCount-2ea0
+users.authentication.ListPlatformCredentialMethods
+users.authentication.GetPlatformCredentialMethods
+users.authentication.platformCredentialMethods.GetDevice
+users.authentication.platformCredentialMethods.GetCount-66e6
 users.authentication.ListSoftwareOathMethods
 users.authentication.GetSoftwareOathMethods
 users.authentication.softwareOathMethods.GetCount-0ccd

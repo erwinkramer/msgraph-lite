@@ -1,4 +1,5 @@
 me.managedDevices.GetDeviceCategory
+me.managedDevices.GetRefDeviceCategory
 me.managedDevices.ListDeviceCompliancePolicyStates
 me.managedDevices.GetDeviceCompliancePolicyStates
 me.managedDevices.deviceCompliancePolicyStates.GetCount-c50d
