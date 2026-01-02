@@ -15,7 +15,7 @@ partial class Helper
                  };
 
             var filteredDoc = OpenApiFilterService.CreateFilteredDocument(openApiDocument, predicate);
-            //RemoveUnusedSchemas(ref filteredDoc); // Todo: Implement this method to clean up unused schemas
+            //RemoveUnusedSchemas(ref filteredDoc); // Todo: https://github.com/microsoft/OpenAPI.NET/issues/2665
 
             // Write the OpenApiDocument to a file
             var apiName = group.Key.Replace('.', '-');
