@@ -7,7 +7,7 @@ Graph Lite simplifies the Microsoft Graph API by slicing the monolith into multi
 
 ## Introduction
 
-The [Microsoft Graph API](https://graph.microsoft.com/v1.0) is a special API in today's digital landscape. It is basically an OData API with a [CSDL endpoint](https://graph.microsoft.com/v1.0/$metadata), containing 14.553 API operations (yes, over fourteen thousand) as of writing and is 36.8 MB in size as OpenAPI definition. That's pretty impressive!
+The [Microsoft Graph API](https://graph.microsoft.com/v1.0) is a special API in today's digital landscape. It is basically an OData API with a [CSDL endpoint](https://graph.microsoft.com/v1.0/$metadata), containing 14.850 API operations (yes, over fourteen thousand) as of writing and is 36.8 MB in size as OpenAPI definition. That's pretty impressive!
 
 Microsoft offers self-made [SDKs](https://learn.microsoft.com/en-us/graph/sdks/sdks-overview#supported-languages) and client-code generator [Kiota](https://learn.microsoft.com/en-us/graph/sdks/generate-with-kiota) to programmatically interface with the Graph API, without promoting the use of the Graph API directly as a standardized OData or OpenAPI type. However, they do expose an OpenAPI definition at [microsoftgraph/msgraph-metadata](https://github.com/microsoftgraph/msgraph-metadata/tree/master/openapi/v1.0).
 
@@ -19,7 +19,7 @@ Graph Lite attempts to solve the monolithic nature of the Graph API, not only by
 
 Graph Lite implements slicing based on [OpenAPI.NET](https://github.com/microsoft/OpenAPI.NET).
 
-> Side note: Microsoft also offers cli-tool [Microsoft.OpenApi.Hidi](https://github.com/microsoft/OpenAPI.NET/tree/vnext/src/Microsoft.OpenApi.Hidi), for slicing and validating, based on OpenAPI.NET as well.
+> Side note: Microsoft also offers cli-tool [Microsoft.OpenApi.Hidi](https://www.nuget.org/packages/Microsoft.OpenApi.Hidi), for slicing and validating, based on OpenAPI.NET as well.
 
 Graph Lite slices the Graph API with the following rules:
 
@@ -47,10 +47,6 @@ Graph Lite has the ability to automatically import the whole sliced Graph API in
 ## Generated definitions
 
 Generated definitions can be found under [generated/graphLite](./generated/graphLite/).
-
-## Issues
-
-The generated OpenAPI definition from [microsoftgraph/msgraph-metadata](https://github.com/microsoftgraph/msgraph-metadata/tree/master/openapi/v1.0) does not comply to the OpenAPI standard. It has [Duplicate operationId's in the OpenAPI doc (/drives/* operations) #691](https://github.com/microsoftgraph/msgraph-metadata/issues/691). Graph Lite will throw a non-terminating information message when importing (a Lite API that has this issue) into API Management.
 
 ## Considerations
 
