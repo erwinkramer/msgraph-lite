@@ -1,4 +1,3 @@
-using System.Linq;
 using Microsoft.OpenApi;
 
 partial class Helper
@@ -16,7 +15,7 @@ partial class Helper
                  };
 
             var filteredDoc = OpenApiFilterService.CreateFilteredDocument(openApiDocument, predicate);
-            //RemoveUnusedSchemas(filteredDoc);
+            //RemoveUnusedSchemas(ref filteredDoc); // Todo: Implement this method to clean up unused schemas
 
             // Write the OpenApiDocument to a file
             var apiName = group.Key.Replace('.', '-');
@@ -25,7 +24,7 @@ partial class Helper
             using var fileStream = new FileStream(outputDirectoryFile, FileMode.Create, FileAccess.Write);
             using var streamWriter = new StreamWriter(fileStream);
             var jsonWriter = new OpenApiJsonWriter(streamWriter, new OpenApiJsonWriterSettings() { InlineExternalReferences = true, Terse = true });
-            filteredDoc.SerializeAsV3(jsonWriter);
+            filteredDoc.SerializeAsV31(jsonWriter);
 
             await streamWriter.FlushAsync();
 
